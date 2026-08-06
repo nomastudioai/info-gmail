@@ -13,11 +13,20 @@ Cualquier dirección `@nomastudio.ai`. Las vistas hasta ahora:
 |---|---|
 | `nicolas@nomastudio.ai` | Responsable. Destino de todas las derivaciones |
 | `florencia.greco@nomastudio.ai` | Equipo |
+| `federico@nomastudio.ai` | Equipo. Recibió derivaciones de consultas sobre membresías |
 | `admin@nomastudio.ai` | Cuenta administrativa del estudio |
 | `all@nomastudio.ai` | Lista interna. Si info@ está solo en copia, marcar leído y no etiquetar |
 
 Direcciones que **rebotan** y hay que avisar que están mal en alguna lista:
 `noma.claw@nomastudio.ai`, `manuela.cortes@nomastudio.ai`.
+
+Manuela Cortes firmaba como Asistente de producción y respondía las consultas de la web
+hasta mayo de 2026. Su dirección hoy rebota. Si aparece un hilo viejo firmado por ella, no
+la menciones al retomar la conversación.
+
+Contacto externo que recibía derivaciones: `feliman06@gmail.com`, referido como "Felu",
+para consultas sobre **cursos y formaciones**. Confirmar con Nicolás si sigue vigente
+antes de derivarle nada.
 
 ## Clientes y proyectos
 
@@ -64,6 +73,15 @@ ruido. Mirá el subdominio antes de archivar.
 | `sa@ahrefs.com` | Ahrefs Site Audit | Health score que cae más de 20 puntos |
 | `sc-noreply@google.com` | Search Console | Penalización manual o caída de indexación |
 | `bingwb@microsoft.com` | Bing Webmaster | Ninguna, es ruido |
+| `no-reply@elevenlabs.io` | ElevenLabs | Ninguna vista hasta ahora |
+
+## Notificaciones de plataforma
+
+| Remitente | Acción |
+|---|---|
+| `no-reply@canva.com` | Si es una notificación de equipo, etiquetar `Canva` y archivar. Si es una **solicitud de acceso a un diseño**, categoría I: `ACCION REQUERIDA` y dejar en inbox |
+| `drive-shares-dm-noreply@google.com` | Categoría I. Nunca otorgar acceso. Marcar en el resumen si el solicitante es externo al dominio |
+| Invitaciones y respuestas de Google Calendar | Etiquetar `Calendar`, archivar, marcar leído. No requieren acción salvo que el cuerpo traiga un pedido explícito |
 
 ## Facturación: etiquetar `Pagos y Suscripciones`, archivar
 

@@ -78,6 +78,27 @@ Acción:
 Ojo con los duplicados: es común que la misma persona mande el formulario dos veces
 seguidas. Respondé una sola vez.
 
+### Control de conversaciones abandonadas
+
+**Este chequeo es obligatorio en cada corrida.** El agujero más caro de esta casilla no es
+el lead que nunca se contestó, es el que se contestó, respondió con la información que le
+pedimos, y del lado del estudio nadie siguió. En la auditoría del 06/08/2026 aparecieron
+tres casos, uno de ellos con 106 días de silencio.
+
+Buscá los hilos donde el último mensaje es del interesado y no nuestro:
+
+```
+search_threads: label:NOMA WEB -in:draft
+```
+
+Para cada uno, mirá quién mandó el último mensaje. Si fue el interesado y pasaron más de
+48 horas, etiquetá `ACCION REQUERIDA` y sumalo al resumen. Si pasaron más de 7 días,
+además va push.
+
+No redactes vos la respuesta a una conversación abandonada por semanas. Retomar un hilo
+frío requiere decidir si se pide disculpas y si se ofrece algo concreto, y eso lo define
+un humano.
+
 ## E. Interno del equipo
 
 Cualquier remitente `@nomastudio.ai`.
