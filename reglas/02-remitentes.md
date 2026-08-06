@@ -12,10 +12,19 @@ Cualquier dirección `@nomastudio.ai`. Las vistas hasta ahora:
 | Dirección | Nota |
 |---|---|
 | `nicolas@nomastudio.ai` | Responsable. Destino de todas las derivaciones |
+| `felipe.cortes@nomastudio.ai` | Equipo. **Maneja NoMa Academy**, cursos y formaciones. Todo lo de membresías va acá |
 | `florencia.greco@nomastudio.ai` | Equipo |
-| `federico@nomastudio.ai` | Equipo. Recibió derivaciones de consultas sobre membresías |
+| `federico@nomastudio.ai` | Equipo |
+| `augusto.daurelio@nomastudio.ai` | Equipo |
 | `admin@nomastudio.ai` | Cuenta administrativa del estudio |
 | `all@nomastudio.ai` | Lista interna. Si info@ está solo en copia, marcar leído y no etiquetar |
+| `development@nomastudio.ai` | Área técnica |
+| `design@nomastudio.ai` | Área de diseño |
+| `sound@nomastudio.ai` | Área de sonido |
+
+Direcciones personales de gente del equipo que aparecen en hilos, sobre todo de RRHH:
+`fedeasis@gmail.com` (Federico) y `florenciamaragreco@gmail.com` (Florencia Greco). Son
+internas aunque el dominio sea Gmail.
 
 Direcciones que **rebotan** y hay que avisar que están mal en alguna lista:
 `noma.claw@nomastudio.ai`, `manuela.cortes@nomastudio.ai`.
@@ -24,23 +33,58 @@ Manuela Cortes firmaba como Asistente de producción y respondía las consultas 
 hasta mayo de 2026. Su dirección hoy rebota. Si aparece un hilo viejo firmado por ella, no
 la menciones al retomar la conversación.
 
-Contacto externo que recibía derivaciones: `feliman06@gmail.com`, referido como "Felu",
-para consultas sobre **cursos y formaciones**. Confirmar con Nicolás si sigue vigente
-antes de derivarle nada.
+Las consultas sobre **cursos, formaciones y NoMa Academy** van a
+`felipe.cortes@nomastudio.ai`. En hilos viejos aparece derivado a `feliman06@gmail.com`,
+que es su dirección personal: **usá siempre la del dominio**.
 
-## Clientes y proyectos
+## Clientes activos
 
-Los dominios detectados en la casilla. **Confirmar con Nicolás cuáles siguen activos**
-antes de aplicar reglas de cliente.
+Confirmados por Nicolás el 06/08/2026:
 
-| Proyecto | Dominio / seña | Estado |
+| Cliente | Dominio | Seña |
 |---|---|---|
-| US Ophthalmic | `usophthalmic.com` | Activo, tiene reuniones semanales agendadas |
-| Los Amigurumis | `theamigurumis.com`, `m.theamigurumis.com` | Activo, con SEO y Spotify propios |
-| Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster, confirmar estado |
-| Wizzy | carpeta Drive "00 Wizzy Live" | Confirmar dominio de contacto |
-| Lab AI CHV | pendiente | Confirmar dominio de contacto |
-| Ticketera | proyecto en Railway | Producto propio o de cliente, confirmar |
+| Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`) aparecen alrededor de este proyecto |
+| Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster |
+| Chilevisión | Por completar | Aparece en el material del estudio como "Lab AI CHV" |
+| Mundoloco | Por completar | |
+| Grupo Vytal | Por completar | |
+| Spectrum | Por completar | |
+| Therasigna | Por completar | |
+| GCBA Museos BA | Por completar | Gobierno de la Ciudad de Buenos Aires |
+
+**Los dominios están sin completar a propósito.** Se revisó el histórico de info@ y ninguno
+de estos ocho clientes escribe a esta casilla: se manejan por otras direcciones. No
+inventes un dominio. Cuando llegue el primer mail de uno de ellos, anotá el dominio real
+acá y commiteá.
+
+## Propiedad intelectual propia, no son clientes
+
+| Proyecto | Dominio |
+|---|---|
+| Los Amigurumis | `theamigurumis.com`, `m.theamigurumis.com` |
+| NoMa Academy | Producto de formación del estudio. Lo maneja Felipe Cortes |
+| Ticketera | Proyecto propio alojado en Railway |
+
+Un mail sobre estos proyectos no es un mail de cliente, pero sí es del estudio. Las
+alertas técnicas siguen la categoría B y todo lo de NoMa Academy va a Felipe.
+
+## A confirmar
+
+**US Ophthalmic (`usophthalmic.com`) no figura en la lista de clientes activos**, pero
+tiene reuniones semanales agendadas en el calendario y monitoreo de SEO activo. Preguntar
+a Nicolás si sigue siendo cliente antes de tratar sus mails como ruido.
+
+## Partners y proveedores
+
+No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una pregunta.
+
+| Contacto | Organización |
+|---|---|
+| `juan.gutierrez@onerpm.com`, `mariam@onerpm.com` | ONE RPM, distribución musical. Tiene label propio |
+| `chenying.1105@bytedance.com` | ByteDance |
+| `ashawari@xwf.google.com` | Google |
+| `steven@sequencer.media`, `nico@sequencer.media` | Sequencer |
+| `yolandyan@comfy.org` | Comfy |
 
 ## Ruido: archivar y marcar leído siempre
 

@@ -73,6 +73,7 @@ Acción:
 | Consulta vaga o de una sola palabra (ej: "legal", "hola") | Responder pidiendo que amplíe. No escalar todavía |
 | Spam por el formulario, texto sin sentido, prueba | Archivar sin responder. No escalar |
 | Pedido de trabajo o CV | Etiquetar `RRHH`, no responder, escalar en el resumen |
+| **Cursos, formaciones o NoMa Academy** | Derivar a `felipe.cortes@nomastudio.ai`, que maneja Academy. Incluye altas, bajas de membresía y consultas de precio de cursos. **No respondas vos**, no hay información de Academy en este repositorio |
 | Tema legal, reclamo o prensa | **No responder.** Etiquetar `ACCION REQUERIDA` y push inmediato |
 
 Ojo con los duplicados: es común que la misma persona mande el formulario dos veces
