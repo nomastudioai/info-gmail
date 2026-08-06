@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+  <title>Filtros info@nomastudio.ai</title>
+
+  <!-- 1. Reportes DMARC por remitente -->
+  <entry>
+    <category term='filter'></category>
+    <title>DMARC por remitente</title>
+    <content></content>
+    <apps:property name='from' value='noreply-dmarc-support@google.com OR noreply@dmarc.yahoo.com OR dmarcreport@microsoft.com'/>
+    <apps:property name='shouldArchive' value='true'/>
+    <apps:property name='shouldMarkAsRead' value='true'/>
+    <apps:property name='label' value='Alertas Sistema'/>
+  </entry>
+
+  <!-- 2. Reportes DMARC por asunto, para los que vengan de otros remitentes -->
+  <entry>
+    <category term='filter'></category>
+    <title>DMARC por asunto</title>
+    <content></content>
+    <apps:property name='subject' value='Report Domain OR Report domain'/>
+    <apps:property name='shouldArchive' value='true'/>
+    <apps:property name='shouldMarkAsRead' value='true'/>
+    <apps:property name='label' value='Alertas Sistema'/>
+  </entry>
+
+  <!-- 3. Newsletters y promociones de producto -->
+  <entry>
+    <category term='filter'></category>
+    <title>Newsletters y promos</title>
+    <content></content>
+    <apps:property name='from' value='no-reply@mail.nordvpn.com OR news@topazlabs.com OR em@em1.cloudflare.com OR welcome@t.brevo.com OR noreply@skool.com OR noreply@microsoftadvertising.com OR no-reply@artists.spotify.com OR glauber@turso.tech OR bingwb@microsoft.com'/>
+    <apps:property name='shouldArchive' value='true'/>
+    <apps:property name='shouldMarkAsRead' value='true'/>
+  </entry>
+
+  <!-- 4. Reportes de SEO. Se archivan pero NO se marcan leidos, para poder revisarlos en lote -->
+  <entry>
+    <category term='filter'></category>
+    <title>SEO y Search Console</title>
+    <content></content>
+    <apps:property name='from' value='sa@ahrefs.com OR sc-noreply@google.com'/>
+    <apps:property name='shouldArchive' value='true'/>
+    <apps:property name='label' value='Alertas Sistema'/>
+  </entry>
+
+  <!-- 5. Railway SOLO mantenimiento. Los deploys crasheados siguen llegando al inbox -->
+  <entry>
+    <category term='filter'></category>
+    <title>Railway mantenimiento</title>
+    <content></content>
+    <apps:property name='from' value='hello@notify.railway.app'/>
+    <apps:property name='subject' value='Security update'/>
+    <apps:property name='shouldArchive' value='true'/>
+    <apps:property name='shouldMarkAsRead' value='true'/>
+    <apps:property name='label' value='Alertas Sistema'/>
+  </entry>
+
+  <!-- 6. Comprobantes de pago. Se archivan sin marcar leidos -->
+  <entry>
+    <category term='filter'></category>
+    <title>Facturacion</title>
+    <content></content>
+    <apps:property name='from' value='payments@ebanx.com OR no-reply@account.canva.com OR no-reply@topazlabs.com'/>
+    <apps:property name='shouldArchive' value='true'/>
+    <apps:property name='label' value='Pagos y Suscripciones'/>
+  </entry>
+
+  <!-- 7. Consultas de la web. NUNCA se archivan. Son los leads -->
+  <entry>
+    <category term='filter'></category>
+    <title>Consultas web</title>
+    <content></content>
+    <apps:property name='subject' value='CONTACTO_WEB'/>
+    <apps:property name='label' value='NOMA WEB'/>
+    <apps:property name='shouldStar' value='true'/>
+    <apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+    <apps:property name='shouldNeverSpam' value='true'/>
+  </entry>
+
+  <!-- 8. Equipo interno. Nunca a spam, siempre importante -->
+  <entry>
+    <category term='filter'></category>
+    <title>Equipo interno</title>
+    <content></content>
+    <apps:property name='from' value='@nomastudio.ai'/>
+    <apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+    <apps:property name='shouldNeverSpam' value='true'/>
+  </entry>
+
+</feed>
