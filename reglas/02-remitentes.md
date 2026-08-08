@@ -16,6 +16,8 @@ Cualquier dirección `@nomastudio.ai`. Las vistas hasta ahora:
 | `florencia.greco@nomastudio.ai` | Equipo |
 | `federico@nomastudio.ai` | Equipo |
 | `augusto.daurelio@nomastudio.ai` | Equipo |
+| `cintia.trobbiani@nomastudio.ai` | Equipo |
+| `production@nomastudio.ai` | Área de producción |
 | `admin@nomastudio.ai` | Cuenta administrativa del estudio |
 | `all@nomastudio.ai` | Lista interna. Si info@ está solo en copia, marcar leído y no etiquetar |
 | `development@nomastudio.ai` | Área técnica |
@@ -43,8 +45,8 @@ Confirmados por Nicolás el 06/08/2026:
 
 | Cliente | Dominio | Seña |
 |---|---|---|
-| Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`) aparecen alrededor de este proyecto |
-| Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster |
+| Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`) y `juano.yorio@gmail.com` aparecen alrededor de este proyecto. Tiene tres reuniones recurrentes: Wizzy Meet Lunes, Wizzy Meet Jueves y WIZZY APP |
+| Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster. Reunión recurrente "OM - IA VFX", los miércoles |
 | Chilevisión | Por completar | Aparece en el material del estudio como "Lab AI CHV" |
 | Mundoloco | Por completar | |
 | Grupo Vytal | Por completar | |
