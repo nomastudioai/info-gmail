@@ -68,11 +68,21 @@ acá y commiteá.
 Un mail sobre estos proyectos no es un mail de cliente, pero sí es del estudio. Las
 alertas técnicas siguen la categoría B y todo lo de NoMa Academy va a Felipe.
 
-## A confirmar
+## Ex clientes
 
-**US Ophthalmic (`usophthalmic.com`) no figura en la lista de clientes activos**, pero
-tiene reuniones semanales agendadas en el calendario y monitoreo de SEO activo. Preguntar
-a Nicolás si sigue siendo cliente antes de tratar sus mails como ruido.
+| Cliente | Dominio | Situación |
+|---|---|---|
+| US Ophthalmic | `usophthalmic.com` | **Contrato terminado por el momento**, confirmado el 06/08/2026. Puede volver |
+
+Cómo se tratan los mails de un ex cliente:
+
+- **Si escribe una persona**, no lo archives. Etiquetá `ACCION REQUERIDA` y sumalo al
+  resumen. Un ex cliente que escribe puede estar retomando, y eso es una oportunidad
+  comercial, no ruido.
+- **Si es una alerta automática** sobre su dominio (Ahrefs, Search Console, Bing), va a
+  `Alertas Sistema` y se archiva. Ya no hay contrato que justifique leerlas.
+- **No propongas dar de baja nada** ni cancelar accesos por tu cuenta. El contrato terminó
+  "por el momento", así que todo se conserva.
 
 ## Partners y proveedores
 
