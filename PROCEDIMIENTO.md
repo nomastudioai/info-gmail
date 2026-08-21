@@ -31,6 +31,18 @@ Si creás una etiqueta nueva, agregala a esta tabla en el mismo commit.
 Recordá: **archivar es `unlabel_thread` con `INBOX`**. **Marcar leído es `unlabel_thread`
 con `UNREAD`**. Los dos se pueden mandar juntos en la misma llamada.
 
+**Cuidado, la tabla de arriba sirve para `label_thread` y `unlabel_thread`, no para buscar.**
+En `search_threads` el operador `label:` **no acepta el ID**: hay que pasarle el nombre entre
+comillas. Y lo peor es cómo falla, porque no da error, devuelve vacío.
+
+- Funciona: `label:"NOMA WEB"`
+- Devuelve vacío en silencio: `label:Label_3701034837447704634`
+
+Si una búsqueda por etiqueta devuelve cero resultados, **verificá con `list_labels` cuántos
+hilos tiene esa etiqueta antes de concluir que no hay nada**. Detectado el 21/08/2026: casi
+se saltea el control de conversaciones abandonadas porque la búsqueda por ID daba vacío
+mientras la etiqueta tenía 18 hilos.
+
 ---
 
 ## Paso 1: leer el registro anterior
