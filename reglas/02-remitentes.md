@@ -23,13 +23,30 @@ Cualquier dirección `@nomastudio.ai`. Las vistas hasta ahora:
 | `development@nomastudio.ai` | Área técnica |
 | `design@nomastudio.ai` | Área de diseño |
 | `sound@nomastudio.ai` | Área de sonido |
+| `administration@nomastudio.ai` | Área administrativa |
+| `manuel.vizan@nomastudio.ai` | Equipo, sonido |
+| `csd@nomastudio.ai` | Equipo |
+| `carolina.capasso@nomastudio.ai` | Equipo |
+| `jazmin.chalkho@nomastudio.ai` | Equipo |
+| `agostina.mures@nomastudio.ai` | Equipo |
+| `agustin.sanchez@nomastudio.ai` | Equipo |
+| `juancruz.gimenez@nomastudio.ai` | Equipo |
+| `magali.suescun@nomastudio.ai` | Equipo |
+
+Las nueve últimas se relevaron el 21/08/2026 de la lista de destinatarios de las
+invitaciones de calendario que Federico Asis manda a todo el estudio. Son internas aunque
+todavía no hayan escrito a esta casilla.
 
 Direcciones personales de gente del equipo que aparecen en hilos, sobre todo de RRHH:
 `fedeasis@gmail.com` (Federico) y `florenciamaragreco@gmail.com` (Florencia Greco). Son
 internas aunque el dominio sea Gmail.
 
 Direcciones que **rebotan** y hay que avisar que están mal en alguna lista:
-`noma.claw@nomastudio.ai`, `manuela.cortes@nomastudio.ai`.
+`noma.claw@nomastudio.ai`, `manuela.cortes@nomastudio.ai`,
+`nacho.mallavia@nomastudio.ai` (nueva, primer rebote visto el 20/08/2026).
+
+Entre el 06/08 y el 21/08/2026 esas tres direcciones generaron nueve rebotes a esta casilla.
+Siguen cargadas en alguna lista interna.
 
 Manuela Cortes firmaba como Asistente de producción y respondía las consultas de la web
 hasta mayo de 2026. Su dirección hoy rebota. Si aparece un hilo viejo firmado por ella, no
@@ -46,7 +63,7 @@ Confirmados por Nicolás el 06/08/2026:
 | Cliente | Dominio | Seña |
 |---|---|---|
 | Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`) y `juano.yorio@gmail.com` aparecen alrededor de este proyecto. Tiene tres reuniones recurrentes: Wizzy Meet Lunes, Wizzy Meet Jueves y WIZZY APP |
-| Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster. Reunión recurrente "OM - IA VFX", los miércoles |
+| Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster. Reunión recurrente "OM - IA VFX", los miércoles. El 09/08/2026 invitaron a info@ a administrar su perfil de Google Business "Otro Mundo - Escuela de arte", así que las notificaciones de ese perfil (opiniones, rendimiento) van a llegar acá |
 | Chilevisión | Por completar | Aparece en el material del estudio como "Lab AI CHV" |
 | Mundoloco | Por completar | |
 | Grupo Vytal | Por completar | |
@@ -114,11 +131,34 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `no-reply@artists.spotify.com` | Notificación social |
 | `glauber@turso.tech` | Newsletter |
 | `bingwb@microsoft.com` | Onboarding de producto |
-| `devanshv@labaimadesimple.com` | Cold outreach |
+| `devanshv@labaimadesimple.com` | Cold outreach. Insistió 3 veces (05, 09 y 15/08/2026) |
+| `otto@elevenyellow.com` | Cold outreach. Vende backlinks desde PromptHero. 2 mails |
+| `dss2010@live.ca` | Cold outreach disfrazado de investigación sobre workflows de estudios de IA |
+| `email@mail.variety.com` | Newsletter |
+| `info@make.com` | Newsletter |
+| `maxine@acestudio.ai` | Promo |
+| `marketing.emails@cloudhq.net` | Promo. Manda seguido |
+| `insights@insights.veed.io` | Newsletter |
+| `ship@info.vercel.com` | Promo |
+| `no-reply@news.comfy.org` | Newsletter. **No confundir con `comfy-cloud@updates.comfy.org`**, que son notificaciones de cuenta |
+| `news@sequencer.media` | Newsletter. **No confundir con `steven@sequencer.media` y `nico@sequencer.media`**, que son partners |
+| `welcome@supabase.com` | Newsletter. **No confundir con `noreply@supabase.com`** (alertas) ni con `invoice+statements@supabase.com` (facturación) |
+| `no-reply@email.claude.com` | Newsletter de producto |
+| `businessprofile-noreply@google.com` | Informes de rendimiento del perfil del estudio. **Excepción:** si es una invitación a administrar el perfil de un cliente, o una opinión sobre un perfil de cliente, no es ruido, va a `ACCION REQUERIDA` |
+| `suno@creators.suno.com` | Promo. **No confundir con `invoice+statements@suno.com`** (facturación) |
+| `no-reply@apple.com` | Notificaciones de Apple Business. **No confundir con `appleid@id.apple.com`**, que manda códigos y no se toca |
+| `noreply@notify.cloudflare.com` | Invitaciones a cuentas de Cloudflare. Informativas |
+| `no-reply@youtube.com` | Avisos de cambios de API. Informativos |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
 ruido. Mirá el subdominio antes de archivar.
+
+**Pendiente de definir, no lo decidas solo:** `info@iubenda.com` mandó tres mails el 19 y
+20/08/2026 sobre la política de privacidad de nomastudio.ai. Si iubenda es un servicio
+contratado por el estudio son alertas de cumplimiento reales (categoría B). Si no, es
+prospección (categoría A). Mientras no esté confirmado va a `Alertas Sistema`, que es la
+opción reversible. Preguntar a Nicolás.
 
 ## Alertas de sistema: etiquetar `Alertas Sistema`, archivar, agrupar en el resumen
 
@@ -130,6 +170,21 @@ ruido. Mirá el subdominio antes de archivar.
 | `sc-noreply@google.com` | Search Console | Penalización manual o caída de indexación |
 | `bingwb@microsoft.com` | Bing Webmaster | Ninguna, es ruido |
 | `no-reply@elevenlabs.io` | ElevenLabs | Ninguna vista hasta ahora |
+| `notifications@github.com` | GitHub, actividad de repos y CI | Ninguna. Los avisos de build fallido de un repo propio van al resumen, no a push |
+| `adsense-noreply@google.com` | AdSense | Rechazo o suspensión de un sitio propio: va al resumen |
+| `meetings-noreply@google.com` | Notas de reuniones de Meet | Ninguna |
+| `support@namecheap.com` | Namecheap, estado del servicio | Caída activa, no un aviso de restablecimiento |
+| `info@iubenda.com` | Cumplimiento del sitio | Ver la nota de la sección de ruido, está sin confirmar |
+
+**Railway, precisión sobre la excepción.** Además de `crashed`, `failed` y `down`, escalá
+los asuntos con `Server Outage` o cualquier cuerpo que diga `Impact: Service offline`. Visto
+el 20/08/2026: el proyecto `noma osint` quedó con dos servicios offline en producción por una
+falla de hardware. Railway avisa que se restablece solo, pero eso hay que verificarlo, no
+darlo por hecho.
+
+**Distinguir proyecto propio de proyecto de cliente antes de decidir el push.** `noma osint`,
+`NoMa-Prompts` y `Ticketera` son propios: van al resumen. Un servicio de un cliente caído sí
+es push inmediato.
 
 ## Notificaciones de plataforma
 
@@ -138,12 +193,22 @@ ruido. Mirá el subdominio antes de archivar.
 | `no-reply@canva.com` | Si es una notificación de equipo, etiquetar `Canva` y archivar. Si es una **solicitud de acceso a un diseño**, categoría I: `ACCION REQUERIDA` y dejar en inbox |
 | `drive-shares-dm-noreply@google.com` | Categoría I. Nunca otorgar acceso. Marcar en el resumen si el solicitante es externo al dominio |
 | Invitaciones y respuestas de Google Calendar | Etiquetar `Calendar`, archivar, marcar leído. No requieren acción salvo que el cuerpo traiga un pedido explícito |
+| `ads-account-noreply@google.com` y `ads-account-noreply@ads.google.com` | Etiquetar `Google ADS`. Los avisos de producto y de límite de impresiones se archivan. **Todo lo que sea cambio de permisos va a `ACCION REQUERIDA` y queda en inbox:** invitaciones a acceder a una cuenta, usuarios nuevos agregados, y los asuntos con "solicitud de seguridad" |
+| `noreply@business-updates.facebook.com` | Etiquetar `META` y archivar |
+| `notifications@ae.linktr.ee` | Etiquetar `LinkTree` y archivar |
+| `googleaistudio-noreply@google.com` | Facturación de la API de Gemini. Si trae fecha límite, `Pagos y Suscripciones` más `ACCION REQUERIDA` y queda en inbox |
+| `comfy-cloud@updates.comfy.org` | Invitaciones a equipos de Comfy. Informativas, archivar |
 
 ## Facturación: etiquetar `Pagos y Suscripciones`, archivar
 
 `payments@ebanx.com`, `no-reply@account.canva.com`, `no-reply@topazlabs.com`,
-y en general cualquier remitente cuyo asunto contenga factura, invoice, receipt,
-comprobante, pago confirmado o payment.
+`invoice+statements@mail.anthropic.com`, `invoice+statements@supabase.com`,
+`invoice+statements@suno.com`, y en general cualquier remitente cuyo asunto contenga
+factura, invoice, receipt, comprobante, pago confirmado o payment.
+
+Los recibos de Anthropic y de Suno **no traen el monto en el cuerpo del mail**, solo el
+número de comprobante. No lo estimes ni lo busques en el link: anotá el número y que el
+monto está en el comprobante. Supabase sí manda el monto en el cuerpo.
 
 ## Consultas web
 
@@ -160,5 +225,28 @@ cambio de una línea en el código que manda el mail por Resend.
 ## Nunca tocar
 
 Remitentes de códigos de verificación y seguridad: `noreply@tm.openai.com`,
-`no-reply@accounts.google.com`, y cualquier mail cuyo asunto contenga código, code, OTP,
-verificación, verification o inicio de sesión.
+`no-reply@accounts.google.com`, `appleid@id.apple.com`, `noreply@manychat.com`,
+y cualquier mail cuyo asunto contenga código, code, OTP, verificación, verification o
+inicio de sesión.
+
+Las alertas de seguridad de Anthropic llegan desde direcciones con sufijo aleatorio, del
+tipo `no-reply-XXXXXXXX@mail.anthropic.com`. No se archivan ni se etiquetan: quedan en el
+inbox. En cambio `invoice+statements@mail.anthropic.com` es facturación y sí se archiva.
+
+**Ojo con los borradores.** En la casilla hay borradores viejos cuyo cuerpo son códigos de
+verificación pegados a mano (Hostinger, ONE RPM). No los cites en ningún resumen ni
+notificación, igual que los mails de código.
+
+## Solicitantes de acceso externos, historial
+
+Categoría I. Nunca se otorga acceso, pero conviene tener el historial para detectar a alguien
+que quedó bloqueado y nadie atendió.
+
+| Solicitante | Qué pide | Veces |
+|---|---|---|
+| `tomas.fiure@gmail.com` | Carpeta de Drive "00 Wizzy Live" | 06/08 y 15/08/2026 |
+| `helena.ferronato@gmail.com` | Archivos `Historia_del_Transporte_BA_narrado_1080p`, v7, v9 y v12 | 07/08, 12/08 y 18/08/2026 |
+
+**Si el mismo solicitante pide tres veces o más y nadie resolvió, subilo al resumen como
+prioridad y no solo como un ítem de la lista.** Alguien de afuera esperando dos semanas por
+un archivo es un problema operativo, no una notificación.
