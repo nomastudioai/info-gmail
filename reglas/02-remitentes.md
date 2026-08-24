@@ -131,7 +131,9 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `no-reply@artists.spotify.com` | Notificación social |
 | `glauber@turso.tech` | Newsletter |
 | `bingwb@microsoft.com` | Onboarding de producto |
+| `bp-norep@microsoft.com` | Bing Places for Business, onboarding del perfil del estudio. Visto el 22/08/2026. Mismo tipo que `bingwb@microsoft.com` |
 | `devanshv@labaimadesimple.com` | Cold outreach. Insistió 3 veces (05, 09 y 15/08/2026) |
+| `artificialintelligencemadesimple@substack.com` | Newsletter de **`devanshv@labaimadesimple.com`**, el mismo cold outreach de arriba. El 22/08/2026 apareció la casilla suscripta a su Substack sin que nadie del estudio se suscribiera. Cuarta vía de contacto del mismo remitente. Se archiva, pero archivar no lo detiene: ver la propuesta 2 del registro del 24/08/2026 |
 | `otto@elevenyellow.com` | Cold outreach. Vende backlinks desde PromptHero. 2 mails |
 | `dss2010@live.ca` | Cold outreach disfrazado de investigación sobre workflows de estudios de IA |
 | `email@mail.variety.com` | Newsletter |
@@ -194,7 +196,7 @@ es push inmediato.
 | `drive-shares-dm-noreply@google.com` | Categoría I. Nunca otorgar acceso. Marcar en el resumen si el solicitante es externo al dominio |
 | Invitaciones y respuestas de Google Calendar | Etiquetar `Calendar`, archivar, marcar leído. No requieren acción salvo que el cuerpo traiga un pedido explícito |
 | `ads-account-noreply@google.com` y `ads-account-noreply@ads.google.com` | Etiquetar `Google ADS`. Los avisos de producto y de límite de impresiones se archivan. **Todo lo que sea cambio de permisos va a `ACCION REQUERIDA` y queda en inbox:** invitaciones a acceder a una cuenta, usuarios nuevos agregados, y los asuntos con "solicitud de seguridad" |
-| `noreply@business-updates.facebook.com` | Etiquetar `META` y archivar |
+| `noreply@business-updates.facebook.com` y `noreply@business.facebook.com` | Etiquetar `META` y archivar. Son dos subdominios distintos del mismo emisor. El segundo se vio el 22/08/2026 con un aviso de política de uso de los chats de Messenger, y llegó duplicado en el mismo hilo |
 | `notifications@ae.linktr.ee` | Etiquetar `LinkTree` y archivar |
 | `googleaistudio-noreply@google.com` | Facturación de la API de Gemini. Si trae fecha límite, `Pagos y Suscripciones` más `ACCION REQUERIDA` y queda en inbox |
 | `comfy-cloud@updates.comfy.org` | Invitaciones a equipos de Comfy. Informativas, archivar |
@@ -203,12 +205,47 @@ es push inmediato.
 
 `payments@ebanx.com`, `no-reply@account.canva.com`, `no-reply@topazlabs.com`,
 `invoice+statements@mail.anthropic.com`, `invoice+statements@supabase.com`,
-`invoice+statements@suno.com`, y en general cualquier remitente cuyo asunto contenga
+`invoice+statements@suno.com`, `billing@shopify.com`, `team@info.hostinger.com`,
+`noreply@notify.cloudflare.com`, y en general cualquier remitente cuyo asunto contenga
 factura, invoice, receipt, comprobante, pago confirmado o payment.
 
 Los recibos de Anthropic y de Suno **no traen el monto en el cuerpo del mail**, solo el
 número de comprobante. No lo estimes ni lo busques en el link: anotá el número y que el
 monto está en el comprobante. Supabase sí manda el monto en el cuerpo.
+
+**`team@info.hostinger.com` es la trampa.** El asunto es puro marketing, del tipo "Todo listo
+para seguir creciendo en internet", así que por asunto iría a ruido. El cuerpo es una factura.
+Visto el 21/08/2026: ARS 54.798,00 por el VPS KVM 2 más Daily Backup de
+`srv1846712.hstgr.cloud`. **Abrí siempre el cuerpo de cualquier mail de Hostinger antes de
+archivarlo.**
+
+**`billing@shopify.com` factura tiendas, no al estudio directamente.** El asunto trae el nombre
+de la tienda, y de ahí se saca de quién es el cargo. Visto el 24/08/2026: USD 33,98 por apps de
+la tienda de **US Ophthalmic, que es ex cliente**, cobrados a una Mastercard terminada en 7085.
+No se sabe si esa tarjeta es del estudio o del cliente, y no hay que suponerlo. El cargo se
+registra y se reporta, y **no se propone darlo de baja**, por la regla de ex clientes.
+
+**`noreply@notify.cloudflare.com` manda tres tipos de mail y solo uno importa.** Las
+invitaciones a cuentas son informativas. Las facturas y confirmaciones de compra son categoría
+C y se archivan. Los asuntos con `[Action required] Payment failed` son un cobro fallido: van a
+`Pagos y Suscripciones` más `ACCION REQUERIDA` y **quedan en inbox**. Visto el 23/08/2026 en la
+cuenta a nombre de Orlando Ruarte: falló el cobro de la factura IN-76373006 y cincuenta y cinco
+minutos después el mismo importe se cobró a la tarjeta de respaldo. Mirá siempre si hay un mail
+posterior de cobro exitoso antes de decidir el push, y acordate de que **lo que importa no es
+el monto, es que el medio de pago principal está rechazando.**
+
+## Consultas comerciales directas, sin pasar por el formulario
+
+No todas las consultas entran por Resend. Algunas llegan escritas a mano a info@, y esas no
+tienen categoría propia en `01-clasificacion.md`: caen en la J por descarte, que es la
+categoría de "no entendí". Eso está mal, porque son leads.
+
+Mientras no exista la categoría, el criterio es el mismo que para la D: se etiqueta, se
+resume, y **si piden precio, plazo o alcance no se responden**, van a `ACCION REQUERIDA`.
+
+| Remitente | Qué pidió | Cuándo |
+|---|---|---|
+| `paloalvarez45@gmail.com` | Paloma Alvarez. Rango de costos de referencia para una serie de 3 a 5 reels animados con IA, para su Trabajo Final de Grado en la Universidad Siglo 21. Cita a Wizzy y a Los Amigurumis como referencia. Pedido de precio, no se respondió | 21/08/2026 |
 
 ## Consultas web
 
