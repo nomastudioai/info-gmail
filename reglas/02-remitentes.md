@@ -245,7 +245,13 @@ resume, y **si piden precio, plazo o alcance no se responden**, van a `ACCION RE
 
 | Remitente | Qué pidió | Cuándo |
 |---|---|---|
-| `paloalvarez45@gmail.com` | Paloma Alvarez. Rango de costos de referencia para una serie de 3 a 5 reels animados con IA, para su Trabajo Final de Grado en la Universidad Siglo 21. Cita a Wizzy y a Los Amigurumis como referencia. Pedido de precio, no se respondió | 21/08/2026 |
+| `paloalvarez45@gmail.com` | Paloma Alvarez. Rango de costos de referencia para una serie de 3 a 5 reels animados con IA, para su Trabajo Final de Grado en la Universidad Siglo 21. Cita a Wizzy y a Los Amigurumis como referencia. **Respondida el 24/08/2026 con los valores que aportó Nicolás.** Etiquetada `Claude/Respondido` y archivada | 21/08/2026 |
+
+**A ella se le respondió porque Nicolás dictó el contenido, no porque el criterio haya
+cambiado.** Un pedido de precio se sigue sin contestar solo. Los valores de referencia que
+Nicolás autorizó para este caso quedaron escritos en el registro del 24/08/2026, y son los
+únicos precios que existen en este repositorio. **No los extiendas a otro formato, otro
+cliente ni otra consulta sin que él lo diga de nuevo.**
 
 ## Consultas web
 

@@ -67,10 +67,21 @@ Está detallado paso a paso en `PROCEDIMIENTO.md`. Seguilo en orden.
 | Leer mails | Funciona | Conector Gmail |
 | Etiquetar y archivar | Funciona | Conector Gmail |
 | Crear borradores | Funciona | Conector Gmail |
-| **Enviar mails** | **Bloqueado** | Requiere OAuth, ver `setup/gmail-api-oauth.md` |
+| **Enviar mails** | **Funciona técnicamente, restringido por política** | Conector Gmail, `send_message` y `reply`. Verificado el 24/08/2026 |
 | **Crear filtros nativos** | **Bloqueado** | Requiere OAuth o carga manual, ver `setup/filtros-gmail.md` |
 | Avisar a Nicolás | Funciona | PushNotification al celular |
 
-Mientras el envío esté bloqueado, las respuestas se dejan como **borrador** y se le avisa
-a Nicolás por push que tiene borradores esperando. No mientas en el resumen diciendo que
-respondiste algo que en realidad quedó en borrador.
+**Sobre el envío, leer con atención.** Hasta el 24/08/2026 esta tabla decía que enviar estaba
+bloqueado por OAuth. El 24/08/2026 se envió un mail real desde una sesión local, a Paloma
+Alvarez, y funcionó a la primera. **La limitación era de las sesiones en la nube, no del
+conector.** En una sesión local el envío está disponible.
+
+Que se pueda enviar no significa que la corrida automática pueda enviar sola. **La regla sigue
+siendo la misma: en una corrida automática, las respuestas se dejan como borrador** y se avisa
+a Nicolás. El envío directo se hace solamente cuando Nicolás lo pide de forma explícita en una
+sesión interactiva, y con el contenido que él aporta. Pasar de "dejo borradores" a "mando
+mails" es un cambio de autonomía que lo decide él, no una consecuencia automática de que la
+herramienta responda.
+
+No mientas nunca en el resumen: si algo quedó en borrador, decí que quedó en borrador. Si algo
+se envió, decí que se envió y a quién.
