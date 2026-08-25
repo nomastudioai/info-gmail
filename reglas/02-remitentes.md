@@ -62,7 +62,7 @@ Confirmados por Nicolás el 06/08/2026:
 
 | Cliente | Dominio | Seña |
 |---|---|---|
-| Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`) y `juano.yorio@gmail.com` aparecen alrededor de este proyecto. Tiene tres reuniones recurrentes: Wizzy Meet Lunes, Wizzy Meet Jueves y WIZZY APP |
+| Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`) y `juano.yorio@gmail.com` aparecen alrededor de este proyecto. Tiene tres reuniones recurrentes: Wizzy Meet Lunes, Wizzy Meet Jueves y WIZZY APP. **Canal de YouTube:** Wizzy World, `UCzJxotD6w1kDWKZABYZ5rDQ`. **Distribucion musical:** DistroKid, con el sello Interstreet Recordings en representacion de Wizzy World Inc. Ese dato importa para los reclamos de Content ID, ver la seccion del final |
 | Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster. Reunión recurrente "OM - IA VFX", los miércoles. El 09/08/2026 invitaron a info@ a administrar su perfil de Google Business "Otro Mundo - Escuela de arte", así que las notificaciones de ese perfil (opiniones, rendimiento) van a llegar acá |
 | Chilevisión | Por completar | Aparece en el material del estudio como "Lab AI CHV" |
 | Mundoloco | Por completar | |
@@ -146,11 +146,13 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `news@sequencer.media` | Newsletter. **No confundir con `steven@sequencer.media` y `nico@sequencer.media`**, que son partners |
 | `welcome@supabase.com` | Newsletter. **No confundir con `noreply@supabase.com`** (alertas) ni con `invoice+statements@supabase.com` (facturación) |
 | `no-reply@email.claude.com` | Newsletter de producto |
-| `businessprofile-noreply@google.com` | Informes de rendimiento del perfil del estudio. **Excepción:** si es una invitación a administrar el perfil de un cliente, o una opinión sobre un perfil de cliente, no es ruido, va a `ACCION REQUERIDA` |
+| `businessprofile-noreply@google.com` | Informes de rendimiento del perfil del estudio. **Excepción:** si es una invitación a administrar el perfil de un cliente, o una opinión sobre un perfil de cliente, no es ruido, va a `ACCION REQUERIDA`. La excepción se disparo por primera vez el 24/08/2026, con una opinion de 1 estrella en el perfil de Otro Mundo, y funciono. El aviso de Google **trae el texto de la opinion cortado**, asi que en el resumen se cita solo lo que se ve y se aclara que esta cortado, nunca se completa la queja por inferencia |
 | `suno@creators.suno.com` | Promo. **No confundir con `invoice+statements@suno.com`** (facturación) |
 | `no-reply@apple.com` | Notificaciones de Apple Business. **No confundir con `appleid@id.apple.com`**, que manda códigos y no se toca |
 | `noreply@notify.cloudflare.com` | Invitaciones a cuentas de Cloudflare. Informativas |
-| `no-reply@youtube.com` | Avisos de cambios de API. Informativos |
+| `no-reply@youtube.com` | **Solo los avisos de cambios de API son ruido.** Este mismo remitente manda tambien los reclamos de Content ID, que no son informativos: ver la seccion "Reclamos de monetizacion de YouTube" al final de este archivo |
+| `feedback@midjourney.com` | Newsletter de producto. Visto el 24/08/2026 con el anuncio de la V8.2 |
+| `g@clipzi.agency` | Cold outreach. Gonzalo Orsi, founder de Clipzi (`clipzi.app`). Ofrece acceso Creator gratis mas un blurb y capturas a cambio de que el estudio lo agregue a una lista de herramientas de IA para video. Primer contacto el 24/08/2026 |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -293,3 +295,52 @@ que quedó bloqueado y nadie atendió.
 **Si el mismo solicitante pide tres veces o más y nadie resolvió, subilo al resumen como
 prioridad y no solo como un ítem de la lista.** Alguien de afuera esperando dos semanas por
 un archivo es un problema operativo, no una notificación.
+
+## Reclamos de monetizacion de YouTube
+
+Visto por primera vez el 24/08/2026. `no-reply@youtube.com` estaba anotado como ruido
+informativo, por los avisos de cambios de API. **Ese mismo remitente manda tambien los
+reclamos de Content ID, y esos no son ruido.**
+
+Como se reconoce: el asunto arranca con `No se puede monetizar el video:` en espanol, o con
+`Video can't be monetized` en ingles. El cuerpo trae siempre el titulo del contenido
+reclamado, el tipo (audio o video), el propietario del contenido y el impacto.
+
+Accion: `ACCION REQUERIDA`, **queda en inbox**, y en el resumen se reportan el titulo del
+video, el ID del video, el propietario declarado del contenido y el impacto. No se impugna
+nada desde la casilla.
+
+**El caso de Wizzy es el que mas va a repetirse, y tiene una particularidad que cambia todo.**
+El propietario que reclama es **Interstreet Recordings**, que es el sello de DistroKid, el
+propio distribuidor de Wizzy. O sea que el canal queda reclamado contra si mismo. Eso no se
+resuelve impugnando en YouTube ni cortando el audio: se resuelve cargando el video en el
+**YouTube Allowlist de DistroKid**. El estudio tiene un procedimiento propio para eso, la
+skill `wizzy-reclamos-monetizacion`, y la cuenta de DistroKid esta en el perfil de Chrome
+"info noma".
+
+No confundas los dos escenarios, porque la lectura es opuesta:
+
+- **Reclama Interstreet Recordings o DistroKid:** es un auto reclamo del distribuidor. Molesto
+  y hay que destrabarlo, pero no hay un tercero cobrando contenido ajeno.
+- **Reclama cualquier otro propietario:** ahi si hay un tercero monetizando material del
+  canal, y eso escala distinto. Push inmediato y no lo decide la casilla.
+
+Primer caso registrado: video "Wizzy Family | Meet Tom, Ema and the Whole Crew | Wizzy | Kids
+Songs", ID `XFTHj9Ng_5Y`, reclamado el 24/08/2026 por el audio "Familia Wizzy - Wizzy World".
+
+## Sin resolver: propuesta comercial de Google Ads
+
+| Remitente | Que mando | Cuando |
+|---|---|---|
+| `mirandavalera@google.com` | Miranda Valera, dice ser Account Strategist de Google Ads. Ofrece una asesoria de 20 a 30 minutos sobre la cuenta de Ads del estudio, con link a su agenda. **Sin clasificar a proposito** | 24/08/2026 |
+
+Las senales estan repartidas y no cierran para ningun lado. A favor de que sea real: el
+dominio es `google.com` y habla de la cuenta de Ads del estudio, que existe. A favor de que
+sea prospeccion: llego en copia oculta con destinatarios no revelados, que es un envio masivo;
+afirma haber analizado el rendimiento de la cuenta pero no menciona un solo dato concreto; y la
+firma dice "Atento, in behalf of Google", o sea un tercerizado, no Google.
+
+Mientras no este confirmado: etiquetas `Google ADS` mas `Claude/Revisar`, **queda en inbox**,
+no se responde y no se agenda nada. Archivarlo seria enterrar algo que podria tocar la cuenta
+de Ads del estudio, y agendar una llamada no es una decision de la casilla. Preguntar a
+Nicolas si Miranda Valera es un contacto real asignado a la cuenta.
