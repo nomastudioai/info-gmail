@@ -45,6 +45,13 @@ Direcciones que **rebotan** y hay que avisar que están mal en alguna lista:
 `noma.claw@nomastudio.ai`, `manuela.cortes@nomastudio.ai`,
 `nacho.mallavia@nomastudio.ai` (nueva, primer rebote visto el 20/08/2026).
 
+**Sobre `nacho.mallavia@nomastudio.ai`, dato del 26/08/2026.** No es la direccion de alguien
+que se fue: la persona esta activa y trabajando con material de un cliente. El 25/08/2026
+`@nachomallavia` invito a la cuenta de GitHub del estudio a colaborar en un repo de Otro Mundo,
+y el mismo dia rebotó un mail a su direccion del dominio. O sea que la direccion esta mal
+escrita o nunca se creo, mientras la persona trabaja. Eso lo distingue de `manuela.cortes@`,
+que si es una salida.
+
 Entre el 06/08 y el 21/08/2026 esas tres direcciones generaron nueve rebotes a esta casilla.
 Siguen cargadas en alguna lista interna.
 
@@ -153,6 +160,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `no-reply@youtube.com` | **Solo los avisos de cambios de API son ruido.** Este mismo remitente manda tambien los reclamos de Content ID, que no son informativos: ver la seccion "Reclamos de monetizacion de YouTube" al final de este archivo |
 | `feedback@midjourney.com` | Newsletter de producto. Visto el 24/08/2026 con el anuncio de la V8.2 |
 | `g@clipzi.agency` | Cold outreach. Gonzalo Orsi, founder de Clipzi (`clipzi.app`). Ofrece acceso Creator gratis mas un blurb y capturas a cambio de que el estudio lo agregue a una lista de herramientas de IA para video. Primer contacto el 24/08/2026 |
+| `marketing@engage.canva.com` | Promo de Canva. Visto el 25/08/2026 con el anuncio del millon de ONG. **Tercer subdominio de Canva en esta lista y el unico que es ruido:** `no-reply@canva.com` son notificaciones de plataforma y pedidos de acceso, `no-reply@account.canva.com` es facturacion. Mira el subdominio antes de archivar |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -175,6 +183,7 @@ opción reversible. Preguntar a Nicolás.
 | `bingwb@microsoft.com` | Bing Webmaster | Ninguna, es ruido |
 | `no-reply@elevenlabs.io` | ElevenLabs | Ninguna vista hasta ahora |
 | `notifications@github.com` | GitHub, actividad de repos y CI | Ninguna. Los avisos de build fallido de un repo propio van al resumen, no a push |
+| `noreply@github.com` | GitHub, invitaciones a colaborar en un repositorio | **Si es una invitacion a un repo, no es alerta: es un cambio de permisos.** `ACCION REQUERIDA`, queda en inbox, y la fecha de vencimiento va en el resumen. Ver la seccion de accesos y permisos |
 | `adsense-noreply@google.com` | AdSense | Rechazo o suspensión de un sitio propio: va al resumen |
 | `meetings-noreply@google.com` | Notas de reuniones de Meet | Ninguna |
 | `support@namecheap.com` | Namecheap, estado del servicio | Caída activa, no un aviso de restablecimiento |
@@ -202,6 +211,15 @@ es push inmediato.
 | `notifications@ae.linktr.ee` | Etiquetar `LinkTree` y archivar |
 | `googleaistudio-noreply@google.com` | Facturación de la API de Gemini. Si trae fecha límite, `Pagos y Suscripciones` más `ACCION REQUERIDA` y queda en inbox |
 | `comfy-cloud@updates.comfy.org` | Invitaciones a equipos de Comfy. Informativas, archivar |
+
+**Precedencia de Calendar contra la categoría E, resuelto el 26/08/2026.** Los avisos de
+Calendar llegan firmados por la dirección de quien creó el evento, que casi siempre es alguien
+`@nomastudio.ai`. Eso choca con la categoría E, que dice que nada del dominio se archiva
+automáticamente. **Gana Calendar:** se etiqueta, se archiva y se marca leído, porque no lo
+escribió una persona, lo generó Google. La categoría E protege los mails que una persona
+escribió, no las notificaciones automáticas que llevan su nombre. Visto el 25/08/2026 con una
+actualización de la videoconferencia de "OM - Nueva Web | SEO | Ads" firmada por
+`nicolas@nomastudio.ai`. Si el cuerpo trae un pedido escrito a mano, ahí sí es categoría E.
 
 ## Facturación: etiquetar `Pagos y Suscripciones`, archivar
 
@@ -274,23 +292,46 @@ Remitentes de códigos de verificación y seguridad: `noreply@tm.openai.com`,
 y cualquier mail cuyo asunto contenga código, code, OTP, verificación, verification o
 inicio de sesión.
 
+**Correccion del 26/08/2026 sobre `noreply@manychat.com`.** Es cierto que manda codigos, pero
+**tambien manda las facturas de la suscripcion**, y una factura no es un codigo. No lo
+clasifiques por el remitente: mira el asunto y el cuerpo. Visto el 25/08/2026, asunto
+"NoMa Studio AI - Factura de Manychat", USD 17,00 del plan Essential, factura 3241077-2: eso
+es categoria C y se archiva. Si el asunto trae codigo, code, OTP o verificacion, no se toca.
+
 Las alertas de seguridad de Anthropic llegan desde direcciones con sufijo aleatorio, del
 tipo `no-reply-XXXXXXXX@mail.anthropic.com`. No se archivan ni se etiquetan: quedan en el
 inbox. En cambio `invoice+statements@mail.anthropic.com` es facturación y sí se archiva.
+
+**Ese mismo formato de direccion no siempre es una alerta de seguridad.** Visto el
+25/08/2026: `no-reply-nh5P8mYjmqCoD3T7k61tiQ@mail.anthropic.com` con asunto "Augu shared a
+project with you", que era Augusto D'Aurelio compartiendo el proyecto "Amigurumis Videos"
+desde su cuenta del dominio. Eso es un mail interno, no una alerta. Se marca leido y se deja
+en inbox sin etiquetar, como cualquier hilo interno donde info@ no decide nada. **Abri el
+cuerpo antes de decidir**, porque el remitente no alcanza para distinguir los dos casos.
 
 **Ojo con los borradores.** En la casilla hay borradores viejos cuyo cuerpo son códigos de
 verificación pegados a mano (Hostinger, ONE RPM). No los cites en ningún resumen ni
 notificación, igual que los mails de código.
 
-## Solicitantes de acceso externos, historial
+## Accesos y permisos, historial
 
-Categoría I. Nunca se otorga acceso, pero conviene tener el historial para detectar a alguien
-que quedó bloqueado y nadie atendió.
+Categoria I. Nunca se otorga acceso y nunca se acepta una invitacion, pero conviene tener el
+historial para detectar a alguien que quedo bloqueado y nadie atendio.
+
+**El solicitante interno tambien cuenta.** El 25/08/2026 la cuenta `admin@nomastudio.ai` pidio
+acceso a un diseño de Canva del material de Chilevision. Que sea una cuenta del propio estudio
+no cambia la regla: la casilla no otorga acceso a nada, ni siquiera puertas adentro. Se etiqueta
+y se deja para que lo resuelva un humano.
+
+**Si el aviso trae fecha de vencimiento, la fecha va en el resumen.** Las invitaciones de GitHub
+vencen a los 7 dias, y una invitacion vencida es trabajo perdido.
 
 | Solicitante | Qué pide | Veces |
 |---|---|---|
 | `tomas.fiure@gmail.com` | Carpeta de Drive "00 Wizzy Live" | 06/08 y 15/08/2026 |
 | `helena.ferronato@gmail.com` | Archivos `Historia_del_Transporte_BA_narrado_1080p`, v7, v9 y v12 | 07/08, 12/08 y 18/08/2026 |
+| `admin@nomastudio.ai` | Diseño de Canva "Chile Vision_Organigrama con stickers". **Solicitante interno**, primer caso de este tipo | 25/08/2026 |
+| `@nachomallavia` (GitHub) | Invitacion a colaborar en el repo `nachomallavia/opciones-otro-mundo`, material de Otro Mundo. **Vence el 01/09/2026** | 25/08/2026 |
 
 **Si el mismo solicitante pide tres veces o más y nadie resolvió, subilo al resumen como
 prioridad y no solo como un ítem de la lista.** Alguien de afuera esperando dos semanas por
