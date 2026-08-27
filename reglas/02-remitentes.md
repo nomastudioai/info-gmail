@@ -121,6 +121,8 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `ashawari@xwf.google.com` | Google |
 | `steven@sequencer.media`, `nico@sequencer.media` | Sequencer |
 | `yolandyan@comfy.org` | Comfy |
+| `jo@comfy.org` | Comfy. **Contraparte directa de Nicolas** para el MCP y para el producto de agente in-app que estan por lanzar. Visto el 26/08/2026 respondiendo el planteo de los dos problemas de `upload_file`. Contesta con demora de un par de dias |
+| `mattmiller@comfy.org` | Comfy. Aparecio en copia en la respuesta de Jo del 26/08/2026 |
 
 ## Ruido: archivar y marcar leído siempre
 
@@ -194,6 +196,23 @@ los asuntos con `Server Outage` o cualquier cuerpo que diga `Impact: Service off
 el 20/08/2026: el proyecto `noma osint` quedó con dos servicios offline en producción por una
 falla de hardware. Railway avisa que se restablece solo, pero eso hay que verificarlo, no
 darlo por hecho.
+
+**Build fallido no es servicio caido, precision del 27/08/2026.** La excepcion de arriba mete
+en la misma bolsa dos cosas distintas. Un servicio offline es un incidente de disponibilidad.
+Un `Build failed` es un despliegue nuevo que no compilo, y lo que ya estaba corriendo sigue
+corriendo: es trabajo de desarrollo en curso, no una caida. Criterio:
+
+- `Server Outage`, `crashed`, `down` o un cuerpo con `Impact: Service offline`: incidente.
+  `ACCION REQUERIDA`, queda en inbox, y push si es de un cliente.
+- `Build failed`: `ACCION REQUERIDA` mas `Alertas Sistema`, queda en inbox, **sin push**. Va al
+  resumen. Si el mismo servicio falla tres builds seguidos, ahi si esta trabado y se escala.
+
+Visto el 26/08/2026: fallo el build del servicio `opciones-otro-mundp` en el proyecto
+`resourceful-clarity`, entorno production. **El proyecto `resourceful-clarity` no esta en
+ninguna lista de este repositorio y no se sabe si es propio o de un cliente.** El nombre del
+servicio coincide con el repo `nachomallavia/opciones-otro-mundo`, que es material de Otro
+Mundo, o sea cliente. Preguntar a Nicolas de quien es ese proyecto, porque de eso depende si un
+incidente futuro ahi es push o resumen.
 
 **Distinguir proyecto propio de proyecto de cliente antes de decidir el push.** `noma osint`,
 `NoMa-Prompts` y `Ticketera` son propios: van al resumen. Un servicio de un cliente caído sí
@@ -332,6 +351,15 @@ vencen a los 7 dias, y una invitacion vencida es trabajo perdido.
 | `helena.ferronato@gmail.com` | Archivos `Historia_del_Transporte_BA_narrado_1080p`, v7, v9 y v12 | 07/08, 12/08 y 18/08/2026 |
 | `admin@nomastudio.ai` | Diseño de Canva "Chile Vision_Organigrama con stickers". **Solicitante interno**, primer caso de este tipo | 25/08/2026 |
 | `@nachomallavia` (GitHub) | Invitacion a colaborar en el repo `nachomallavia/opciones-otro-mundo`, material de Otro Mundo. **Vence el 01/09/2026** | 25/08/2026 |
+| Federico Asis (`federico@nomastudio.ai`) | Diseño de Canva "Organigrama _mails". **Segundo solicitante interno en dos dias** | 26/08/2026 |
+
+**Dos pedidos internos de acceso a organigramas en Canva en dos dias no son dos
+notificaciones, son un problema de permisos.** El 25/08 `admin@nomastudio.ai` pidio
+"Chile Vision_Organigrama con stickers" y el 26/08 Federico Asis pidio "Organigrama _mails".
+Los dos son del propio estudio y los dos quedaron trabados. La casilla igual no otorga acceso,
+pero **cuando el mismo tipo de recurso genera dos pedidos en una semana, el resumen lo reporta
+como problema de permisos de carpeta y no como items separados**, porque resolverlo una vez en
+el origen cierra los que vengan.
 
 **Si el mismo solicitante pide tres veces o más y nadie resolvió, subilo al resumen como
 prioridad y no solo como un ítem de la lista.** Alguien de afuera esperando dos semanas por
