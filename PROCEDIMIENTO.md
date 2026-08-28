@@ -28,6 +28,19 @@ Los IDs no son los nombres. Estos son los que hay que pasarle a `label_thread`:
 
 Si creás una etiqueta nueva, agregala a esta tabla en el mismo commit.
 
+**Etiquetas que existen en la casilla y esta tabla no tenía, relevadas el 28/08/2026 con
+`list_labels`.** No las creó ninguna corrida: ya estaban, algunas con cientos de mensajes, o sea
+que hay filtros nativos viejos trabajando en paralelo a este procedimiento. Se anotan para que
+una corrida no las vuelva a descubrir ni cree una etiqueta duplicada con otro nombre.
+
+| Etiqueta | ID | Nota |
+|---|---|---|
+| Claude | `Label_2` | Etiqueta padre de `Claude/Respondido` y `Claude/Revisar`. Vacía, no se usa sola |
+| Gemini Notes | `Label_6909604053749323527` | 258 mensajes. Filtro nativo que saca del inbox las notas de reunión de `gemini-notes@google.com` |
+| MetaUSO | `Label_1830699551876718702` | 2 mensajes. Sin uso claro |
+| ONE RPM | `Label_5529367409034550755` | Vacía |
+| HOSTINGER | `Label_6794334553323219888` | 1 mensaje |
+
 Recordá: **archivar es `unlabel_thread` con `INBOX`**. **Marcar leído es `unlabel_thread`
 con `UNREAD`**. Los dos se pueden mandar juntos en la misma llamada.
 
