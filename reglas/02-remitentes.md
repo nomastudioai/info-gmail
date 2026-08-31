@@ -165,6 +165,8 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `feedback@midjourney.com` | Newsletter de producto. Visto el 24/08/2026 con el anuncio de la V8.2 |
 | `g@clipzi.agency` | Cold outreach. Gonzalo Orsi, founder de Clipzi (`clipzi.app`). Ofrece acceso Creator gratis mas un blurb y capturas a cambio de que el estudio lo agregue a una lista de herramientas de IA para video. Primer contacto el 24/08/2026 |
 | `marketing@engage.canva.com` | Promo de Canva. Visto el 25/08/2026 con el anuncio del millon de ONG. **Tercer subdominio de Canva en esta lista y el unico que es ruido:** `no-reply@canva.com` son notificaciones de plataforma y pedidos de acceso, `no-reply@account.canva.com` es facturacion. Mira el subdominio antes de archivar |
+| `no-reply@em-s.dropbox.com` | Promo de reactivacion de cuenta de Dropbox, del tipo "tu cuenta te espera cuando quieras volver". Visto el 29/08/2026. Sin factura ni alerta en el cuerpo, es puro marketing de retencion |
+| `lmybizexplore@mail.ru` | Cold outreach. Guan Leiming, de Weifang Leimingyun Network Technology Co. Ltd. Ofrece licenciar un bot de captacion de clientes a cambio de que el estudio ponga el link de ellos en el README del repositorio `info-gmail`. **Como mail es ruido y se archiva, pero el del 28/08/2026 no se archivo a proposito:** es la prueba de que el repositorio publico se lee desde afuera, ver el punto 1 del registro del 31/08. Si vuelve a escribir y el repo ya es privado, archivar sin mas |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -399,6 +401,17 @@ No confundas los dos escenarios, porque la lectura es opuesta:
 
 Primer caso registrado: video "Wizzy Family | Meet Tom, Ema and the Whole Crew | Wizzy | Kids
 Songs", ID `XFTHj9Ng_5Y`, reclamado el 24/08/2026 por el audio "Familia Wizzy - Wizzy World".
+
+Segundo caso, 30/08/2026: video "Best Kids Songs Live 24/7 Nursery Rhymes for Kids | Wizzy Kids
+Songs & Nursery Rhymes", ID `7S7lV8LvkVs`. Este trae **tres audios reclamados en un solo
+video**, "Time To Go To Bed", "Pop Pop Pop" e "I see", los tres acreditados a Wizzy World y los
+tres con propietario Interstreet Recordings. Mismo escenario que el primero, o sea auto reclamo
+del distribuidor, sin push.
+
+**Lo que agrega este caso: un mail puede traer varios audios reclamados, no uno.** Leelos todos
+antes de resumir, porque el asunto solo nombra el video y el cuerpo lista los audios por
+separado. Y ojo con los recopilados y los live 24/7, que por definicion mezclan muchos temas:
+son los que mas reclamos acumulan por video.
 
 ## Sin resolver: propuesta comercial de Google Ads
 

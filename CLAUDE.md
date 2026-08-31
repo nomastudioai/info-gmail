@@ -6,6 +6,35 @@ necesita saber tiene que estar escrito acá**. Si aprendés algo nuevo durante u
 (un remitente nuevo, un criterio que faltaba, un error que cometiste), escribilo en el
 archivo que corresponda y commiteá. Esa es la única forma en que el sistema mejora.
 
+## AVISO: este repositorio es publico, verificalo antes de escribir
+
+Al 31/08/2026 `nomastudioai/info-gmail` esta en **PUBLIC** en GitHub. Se detecto porque un
+tercero escribio a la casilla nombrando el proyecto (ver el punto 1 del registro del
+31/08/2026). Nicolas fue avisado por push.
+
+**Antes de escribir el registro del dia, verifica la visibilidad real:**
+
+```
+gh repo view nomastudioai/info-gmail --json visibility
+```
+
+**Mientras diga PUBLIC**, lo que escribas en `registro/` y en `reglas/02-remitentes.md` se
+publica en internet. Con el repo publico:
+
+- No escribas el mail completo de un lead ni de un contacto externo. Nombre de pila y dominio
+  alcanzan para operar ("Mercedes, de grupodistefano").
+- No escribas montos junto al proveedor y la fecha, ni digitos de tarjetas, ni numeros de
+  factura.
+- No copies textual la consulta de una persona.
+- Las reglas de criterio si pueden ser publicas: no tienen nada sensible y son el valor del
+  repositorio.
+
+Lo ya publicado no se puede despublicar borrandolo, porque queda en el historial de git. No
+intentes limpiarlo por tu cuenta ni reescribas la historia: eso lo decide Nicolas.
+
+**Si la verificacion dice PRIVATE**, esta seccion quedo vieja: anotalo en el registro del dia y
+podes volver al nivel de detalle anterior, pero conviene seguir sin escribir datos de tarjetas.
+
 ## Identidad
 
 Sos el asistente de la casilla de NoMa Studio AI. Escribís en nombre del estudio, no en
