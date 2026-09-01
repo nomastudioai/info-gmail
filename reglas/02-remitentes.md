@@ -32,6 +32,7 @@ Cualquier dirección `@nomastudio.ai`. Las vistas hasta ahora:
 | `agustin.sanchez@nomastudio.ai` | Equipo |
 | `juancruz.gimenez@nomastudio.ai` | Equipo |
 | `magali.suescun@nomastudio.ai` | Equipo |
+| `nicolaskitashima@nomastudio.ai` | Equipo. Visto el 27/08/2026 en un hilo interno de revisión de una propuesta comercial |
 
 Las nueve últimas se relevaron el 21/08/2026 de la lista de destinatarios de las
 invitaciones de calendario que Federico Asis manda a todo el estudio. Son internas aunque
@@ -418,14 +419,18 @@ son los que mas reclamos acumulan por video.
 | Remitente | Que mando | Cuando |
 |---|---|---|
 | `mirandavalera@google.com` | Miranda Valera, dice ser Account Strategist de Google Ads. Ofrece una asesoria de 20 a 30 minutos sobre la cuenta de Ads del estudio, con link a su agenda. **Sin clasificar a proposito** | 24/08/2026 |
+| `faelo@xwf.google.com` | Faelo Brenda, mismo patron. "Ultimo seguimiento" sobre la cuenta de Ads de **Otro Mundo** (cliente activo), tono de cierre de trimestre, boton de agenda, sin un dato concreto de la cuenta | 31/08/2026 |
 
 Las senales estan repartidas y no cierran para ningun lado. A favor de que sea real: el
-dominio es `google.com` y habla de la cuenta de Ads del estudio, que existe. A favor de que
-sea prospeccion: llego en copia oculta con destinatarios no revelados, que es un envio masivo;
-afirma haber analizado el rendimiento de la cuenta pero no menciona un solo dato concreto; y la
-firma dice "Atento, in behalf of Google", o sea un tercerizado, no Google.
+dominio es de Google (`google.com` o el subdominio `xwf.google.com`) y habla de una cuenta de
+Ads que existe de verdad. A favor de que sea prospeccion: **las dos firman "Atento, en nombre
+de/in behalf of Google"**, o sea un tercerizado, no Google directo; ninguna de las dos menciona
+un solo dato concreto de rendimiento; y las dos usan el mismo gancho de urgencia de fin de
+trimestre con boton de agenda. Segundo caso del mismo patron en una semana, ahora apuntando a
+la cuenta de un cliente y no a la del estudio.
 
 Mientras no este confirmado: etiquetas `Google ADS` mas `Claude/Revisar`, **queda en inbox**,
-no se responde y no se agenda nada. Archivarlo seria enterrar algo que podria tocar la cuenta
-de Ads del estudio, y agendar una llamada no es una decision de la casilla. Preguntar a
-Nicolas si Miranda Valera es un contacto real asignado a la cuenta.
+no se responde y no se agenda nada. Archivarlo seria enterrar algo que podria tocar una cuenta
+de Ads real, y agendar una llamada no es una decision de la casilla. Preguntar a Nicolas si
+alguna de las dos es un contacto real, o si las dos son el mismo esquema de prospeccion
+tercerizada usando el nombre de Google.
