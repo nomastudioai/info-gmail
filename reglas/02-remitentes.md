@@ -168,6 +168,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `marketing@engage.canva.com` | Promo de Canva. Visto el 25/08/2026 con el anuncio del millon de ONG. **Tercer subdominio de Canva en esta lista y el unico que es ruido:** `no-reply@canva.com` son notificaciones de plataforma y pedidos de acceso, `no-reply@account.canva.com` es facturacion. Mira el subdominio antes de archivar |
 | `no-reply@em-s.dropbox.com` | Promo de reactivacion de cuenta de Dropbox, del tipo "tu cuenta te espera cuando quieras volver". Visto el 29/08/2026. Sin factura ni alerta en el cuerpo, es puro marketing de retencion |
 | `lmybizexplore@mail.ru` | Cold outreach. Guan Leiming, de Weifang Leimingyun Network Technology Co. Ltd. Ofrece licenciar un bot de captacion de clientes a cambio de que el estudio ponga el link de ellos en el README del repositorio `info-gmail`. **Como mail es ruido y se archiva, pero el del 28/08/2026 no se archivo a proposito:** es la prueba de que el repositorio publico se lee desde afuera, ver el punto 1 del registro del 31/08. Si vuelve a escribir y el repo ya es privado, archivar sin mas |
+| `noreply@redditmail.com` | Notificaciones de recomendaciones/intereses de Reddit, sin relacion con ningun proyecto. Visto el 02/09/2026 | Ruido, notificacion social |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -178,6 +179,15 @@ ruido. Mirá el subdominio antes de archivar.
 contratado por el estudio son alertas de cumplimiento reales (categoría B). Si no, es
 prospección (categoría A). Mientras no esté confirmado va a `Alertas Sistema`, que es la
 opción reversible. Preguntar a Nicolás.
+
+**`info@iubenda.com` manda dos tipos de mail distintos, visto el 02/09/2026.** Los tres de
+agosto eran sobre la política de privacidad del sitio, lo que motivó la duda de arriba. El
+del 02/09 es distinto: una promoción genérica de un MCP nuevo para conectar iubenda con
+Claude y ChatGPT, sin mención de nomastudio.ai en particular. Mientras la duda de fondo
+(si iubenda es servicio contratado) siga sin resolver, los dos tipos van igual a `Alertas
+Sistema` por el criterio reversible, pero si algún día se confirma que iubenda NO es
+contratado, el tipo promocional es claramente categoría A (prospección) y el tipo sobre
+la política del sitio hay que seguir mirándolo con más cuidado.
 
 ## Alertas de sistema: etiquetar `Alertas Sistema`, archivar, agrupar en el resumen
 
@@ -326,6 +336,9 @@ es categoria C y se archiva. Si el asunto trae codigo, code, OTP o verificacion,
 Las alertas de seguridad de Anthropic llegan desde direcciones con sufijo aleatorio, del
 tipo `no-reply-XXXXXXXX@mail.anthropic.com`. No se archivan ni se etiquetan: quedan en el
 inbox. En cambio `invoice+statements@mail.anthropic.com` es facturación y sí se archiva.
+
+`login@app.opus.pro` manda codigos de verificacion de inicio de sesion. Visto el
+02/09/2026. No se toca, mismo tratamiento que el resto de los codigos de esta seccion.
 
 **Ese mismo formato de direccion no siempre es una alerta de seguridad.** Visto el
 25/08/2026: `no-reply-nh5P8mYjmqCoD3T7k61tiQ@mail.anthropic.com` con asunto "Augu shared a
