@@ -169,6 +169,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `no-reply@em-s.dropbox.com` | Promo de reactivacion de cuenta de Dropbox, del tipo "tu cuenta te espera cuando quieras volver". Visto el 29/08/2026. Sin factura ni alerta en el cuerpo, es puro marketing de retencion |
 | `lmybizexplore@mail.ru` | Cold outreach. Guan Leiming, de Weifang Leimingyun Network Technology Co. Ltd. Ofrece licenciar un bot de captacion de clientes a cambio de que el estudio ponga el link de ellos en el README del repositorio `info-gmail`. **Como mail es ruido y se archiva, pero el del 28/08/2026 no se archivo a proposito:** es la prueba de que el repositorio publico se lee desde afuera, ver el punto 1 del registro del 31/08. Si vuelve a escribir y el repo ya es privado, archivar sin mas |
 | `noreply@redditmail.com` | Notificaciones de recomendaciones/intereses de Reddit, sin relacion con ningun proyecto. Visto el 02/09/2026 | Ruido, notificacion social |
+| `zeno@updates.resend.com` | Newsletter de producto de Resend (changelog, features nuevas). **No confundir con `onboarding@resend.dev`**, que es el que manda las consultas `CONTACTO_WEB` del formulario de la web: ese es el remitente critico para el negocio, este es puro marketing del proveedor. Visto el 02/09/2026 |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
