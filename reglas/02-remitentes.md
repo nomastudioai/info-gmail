@@ -385,6 +385,14 @@ el origen cierra los que vengan.
 prioridad y no solo como un ítem de la lista.** Alguien de afuera esperando dos semanas por
 un archivo es un problema operativo, no una notificación.
 
+**Caso distinto, visto el 04/09/2026: alguien del estudio comparte algo CON la casilla,
+no al revés.** `drive-shares-dm-noreply@google.com` mandó un aviso de que
+`nicolas@nomastudio.ai` compartió la carpeta "FOTOS OFICIALES" con info@. Esto no es un
+pedido de acceso a algo del estudio, es la situación inversa, y no hay regla escrita para
+eso. Mientras no se confirme con Nicolás si conviene archivar directo (es puramente
+informativo, nadie tiene que otorgar nada) o dejarlo para que alguien lo revise, se
+etiqueta `Claude/Revisar` y se deja en inbox sin archivar, sin tratarlo como Categoría I.
+
 ## Reclamos de monetizacion de YouTube
 
 Visto por primera vez el 24/08/2026. `no-reply@youtube.com` estaba anotado como ruido
