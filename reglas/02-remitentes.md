@@ -341,6 +341,13 @@ inbox. En cambio `invoice+statements@mail.anthropic.com` es facturación y sí s
 `login@app.opus.pro` manda codigos de verificacion de inicio de sesion. Visto el
 02/09/2026. No se toca, mismo tratamiento que el resto de los codigos de esta seccion.
 
+`website@huggingface.co` manda avisos de "New login to your Hugging Face account" con
+ubicacion aproximada y hora. No es un codigo, pero es el mismo tipo de alerta de seguridad:
+no se toca, no se archiva, no se etiqueta. Visto repetidas veces entre el 02/09 y el
+05/09/2026, siempre sin confirmar si el login era reconocido. Si en algun momento el aviso
+dice explicitamente que el acceso no fue reconocido, ahi si es push inmediato por regla de
+escalamiento.
+
 **Ese mismo formato de direccion no siempre es una alerta de seguridad.** Visto el
 25/08/2026: `no-reply-nh5P8mYjmqCoD3T7k61tiQ@mail.anthropic.com` con asunto "Augu shared a
 project with you", que era Augusto D'Aurelio compartiendo el proyecto "Amigurumis Videos"
@@ -436,6 +443,14 @@ antes de resumir, porque el asunto solo nombra el video y el cuerpo lista los au
 separado. Y ojo con los recopilados y los live 24/7, que por definicion mezclan muchos temas:
 son los que mas reclamos acumulan por video.
 
+Tercer caso, 06/09/2026: mismo video "Best Kids Songs Live 24/7 Nursery Rhymes for Kids |
+Wizzy Kids Songs & Nursery Rhymes", con tres audios reclamados distintos a los del caso
+anterior: "El viejo MacWizzard", "Hora de ir a Dormir" y "Pop Pop Pop", los tres acreditados
+a Wizzy World y los tres con propietario Interstreet Recordings. Mismo escenario de auto
+reclamo del distribuidor, sin push. **Confirma que un mismo video recopilatorio puede recibir
+reclamos nuevos en distintas fechas a medida que YouTube identifica mas audios**, no es un
+evento unico por video.
+
 ## Sin resolver: propuesta comercial de Google Ads
 
 | Remitente | Que mando | Cuando |
@@ -456,3 +471,29 @@ no se responde y no se agenda nada. Archivarlo seria enterrar algo que podria to
 de Ads real, y agendar una llamada no es una decision de la casilla. Preguntar a Nicolas si
 alguna de las dos es un contacto real, o si las dos son el mismo esquema de prospeccion
 tercerizada usando el nombre de Google.
+
+## Anuncios rechazados de Google Ads en cuenta de cliente
+
+Visto el 04/09/2026 (procesado el 07/09/2026): `ads-account-noreply@ads.google.com` tambien
+manda avisos de "Anuncios rechazado" cuando Google Ads rechaza anuncios o recursos por
+politica. El caso visto fue en la cuenta de **Otro Mundo** (cliente activo), motivo "Destino
+no operativo" con error HTTP 404, es decir que la URL de destino del anuncio no cargaba. Esto
+no es un cambio de permisos ni un limite de impresiones, asi que no encajaba limpio en la
+tabla de "Notificaciones de plataforma".
+
+Criterio: etiquetar `Google ADS` mas `ACCION REQUERIDA`, queda en inbox, se reporta en el
+resumen. No es push automatico (no es una caida de produccion en el sentido de servicio
+caido), pero si el motivo es un error 404 en la landing page conviene avisar que la pagina de
+destino puede estar rota, no solo el anuncio.
+
+## Rutina de Claude para Otro Mundo (Area I+D)
+
+`no-reply-claude@mail.anthropic.com` con asunto que empieza "⚡ OM · Área I+D" manda el
+resultado de una rutina automatica que arma propuestas semanales de posteo para Otro Mundo y
+necesita que Nicolas elija una opcion (y a veces que apruebe acceso a una carpeta de Drive
+para poder dejar los archivos). Visto el 05/09/2026. No es spam ni un mail de cliente: es una
+notificacion de un proceso interno del estudio que requiere una decision humana.
+
+Criterio: etiquetar `ACCION REQUERIDA`, queda en inbox, se resume con que decision especifica
+hace falta (que opcion elegir, si hace falta aprobar un acceso). No se decide por la casilla
+cual opcion elegir.
