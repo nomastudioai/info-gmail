@@ -170,6 +170,8 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `lmybizexplore@mail.ru` | Cold outreach. Guan Leiming, de Weifang Leimingyun Network Technology Co. Ltd. Ofrece licenciar un bot de captacion de clientes a cambio de que el estudio ponga el link de ellos en el README del repositorio `info-gmail`. **Como mail es ruido y se archiva, pero el del 28/08/2026 no se archivo a proposito:** es la prueba de que el repositorio publico se lee desde afuera, ver el punto 1 del registro del 31/08. Si vuelve a escribir y el repo ya es privado, archivar sin mas |
 | `noreply@redditmail.com` | Notificaciones de recomendaciones/intereses de Reddit, sin relacion con ningun proyecto. Visto el 02/09/2026 | Ruido, notificacion social |
 | `zeno@updates.resend.com` | Newsletter de producto de Resend (changelog, features nuevas). **No confundir con `onboarding@resend.dev`**, que es el que manda las consultas `CONTACTO_WEB` del formulario de la web: ese es el remitente critico para el negocio, este es puro marketing del proveedor. Visto el 02/09/2026 |
+| `no-reply@m.higgsfield.ai` | Promo de producto (Higgsfield, herramienta de IA de video). Visto el 09/09/2026 |
+| `ship@info.vercel.com` | Newsletter/promo de producto de Vercel. Visto el 09/09/2026 |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -354,6 +356,14 @@ project with you", que era Augusto D'Aurelio compartiendo el proyecto "Amigurumi
 desde su cuenta del dominio. Eso es un mail interno, no una alerta. Se marca leido y se deja
 en inbox sin etiquetar, como cualquier hilo interno donde info@ no decide nada. **Abri el
 cuerpo antes de decidir**, porque el remitente no alcanza para distinguir los dos casos.
+
+**Segundo caso del mismo patron, visto el 09/09/2026:** otra direccion con el mismo formato
+de sufijo aleatorio mando "New activity on your team" / "1 person joined your organization
+today", dirigido a `admin@`, `csd@` e `info@nomastudio.ai`. No es un aviso de login ni de
+dispositivo nuevo, es una notificacion de membresia de la organizacion de Anthropic. Mismo
+tratamiento: se marca leido y se deja en inbox sin etiquetar. No dice quien se sumo, asi que
+si a Nicolas le interesa confirmar que el alta fue esperada, queda como duda en el resumen,
+no como escalamiento automatico.
 
 **Ojo con los borradores.** En la casilla hay borradores viejos cuyo cuerpo son códigos de
 verificación pegados a mano (Hostinger, ONE RPM). No los cites en ningún resumen ni
