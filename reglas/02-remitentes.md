@@ -70,7 +70,7 @@ Confirmados por Nicolás el 06/08/2026:
 
 | Cliente | Dominio | Seña |
 |---|---|---|
-| Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`) y `juano.yorio@gmail.com` aparecen alrededor de este proyecto. Tiene tres reuniones recurrentes: Wizzy Meet Lunes, Wizzy Meet Jueves y WIZZY APP. **Canal de YouTube:** Wizzy World, `UCzJxotD6w1kDWKZABYZ5rDQ`. **Distribucion musical:** DistroKid, con el sello Interstreet Recordings en representacion de Wizzy World Inc. Ese dato importa para los reclamos de Content ID, ver la seccion del final |
+| Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`, y `alberto.fiure@cbrealty.com` visto el 09/09/2026 respondiendo un Decline de Wizzy Meet Jueves) y `juano.yorio@gmail.com` aparecen alrededor de este proyecto. Tiene tres reuniones recurrentes: Wizzy Meet Lunes, Wizzy Meet Jueves y WIZZY APP. **Canal de YouTube:** Wizzy World, `UCzJxotD6w1kDWKZABYZ5rDQ`. **Distribucion musical:** DistroKid, con el sello Interstreet Recordings en representacion de Wizzy World Inc. Ese dato importa para los reclamos de Content ID, ver la seccion del final |
 | Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster. Reunión recurrente "OM - IA VFX", los miércoles. El 09/08/2026 invitaron a info@ a administrar su perfil de Google Business "Otro Mundo - Escuela de arte", así que las notificaciones de ese perfil (opiniones, rendimiento) van a llegar acá |
 | Chilevisión | Por completar | Aparece en el material del estudio como "Lab AI CHV" |
 | Mundoloco | Por completar | |
@@ -172,6 +172,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `zeno@updates.resend.com` | Newsletter de producto de Resend (changelog, features nuevas). **No confundir con `onboarding@resend.dev`**, que es el que manda las consultas `CONTACTO_WEB` del formulario de la web: ese es el remitente critico para el negocio, este es puro marketing del proveedor. Visto el 02/09/2026 |
 | `no-reply@m.higgsfield.ai` | Promo de producto (Higgsfield, herramienta de IA de video). Visto el 09/09/2026 |
 | `ship@info.vercel.com` | Newsletter/promo de producto de Vercel. Visto el 09/09/2026 |
+| `customer@slido.com` | Onboarding de producto de Slido (tips para la primera reunión). Visto el 09/09/2026, alguien del estudio creó una cuenta de Slido. **No confundir con `invoices@slido.com`**, que es facturación |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -249,6 +250,7 @@ es push inmediato.
 | `notifications@ae.linktr.ee` | Etiquetar `LinkTree` y archivar |
 | `googleaistudio-noreply@google.com` | Facturación de la API de Gemini. Si trae fecha límite, `Pagos y Suscripciones` más `ACCION REQUERIDA` y queda en inbox |
 | `comfy-cloud@updates.comfy.org` | Invitaciones a equipos de Comfy. Informativas, archivar |
+| `notify-noreply@google.com` | Invitaciones a acceder a un Google Tag (Tag Manager). Categoria I, no notificacion de plataforma pasiva: **`ACCION REQUERIDA`, queda en inbox.** Visto el 09/09/2026: invitacion al tag "Otro Mundo" (cliente activo), administrado por `agamboa1410@gmail.com`, `internacional@otromundo.com.ar`, `mauricio.morales@trinom.io` y `servicios@otromundo.com.ar` |
 
 **Precedencia de Calendar contra la categoría E, resuelto el 26/08/2026.** Los avisos de
 Calendar llegan firmados por la dirección de quien creó el evento, que casi siempre es alguien
@@ -264,8 +266,12 @@ actualización de la videoconferencia de "OM - Nueva Web | SEO | Ads" firmada po
 `payments@ebanx.com`, `no-reply@account.canva.com`, `no-reply@topazlabs.com`,
 `invoice+statements@mail.anthropic.com`, `invoice+statements@supabase.com`,
 `invoice+statements@suno.com`, `billing@shopify.com`, `team@info.hostinger.com`,
-`noreply@notify.cloudflare.com`, y en general cualquier remitente cuyo asunto contenga
-factura, invoice, receipt, comprobante, pago confirmado o payment.
+`noreply@notify.cloudflare.com`, `invoices@slido.com`, y en general cualquier remitente
+cuyo asunto contenga factura, invoice, receipt, comprobante, pago confirmado o payment.
+
+**`invoices@slido.com` confirmado el 09/09/2026:** plan ENGAGE (one-time), USD 60,00. Slido
+es una herramienta de encuestas/Q&A para reuniones, nueva en la casilla. No confundir con
+`customer@slido.com`, que es el onboarding de producto y es ruido.
 
 Los recibos de Anthropic y de Suno **no traen el monto en el cuerpo del mail**, solo el
 número de comprobante. No lo estimes ni lo busques en el link: anotá el número y que el
@@ -389,6 +395,7 @@ vencen a los 7 dias, y una invitacion vencida es trabajo perdido.
 | `admin@nomastudio.ai` | Diseño de Canva "Chile Vision_Organigrama con stickers". **Solicitante interno**, primer caso de este tipo | 25/08/2026 |
 | `@nachomallavia` (GitHub) | Invitacion a colaborar en el repo `nachomallavia/opciones-otro-mundo`, material de Otro Mundo. **Vence el 01/09/2026** | 25/08/2026 |
 | Federico Asis (`federico@nomastudio.ai`) | Diseño de Canva "Organigrama _mails". **Segundo solicitante interno en dos dias** | 26/08/2026 |
+| Julio Ignacio Skuarek (externo, dominio no visible en el mail) | Diseño de Canva "Amigurumis _Estrategia redes_Sal de ahi tortugui 2026" | 09/09/2026 |
 
 **Dos pedidos internos de acceso a organigramas en Canva en dos dias no son dos
 notificaciones, son un problema de permisos.** El 25/08 `admin@nomastudio.ai` pidio
