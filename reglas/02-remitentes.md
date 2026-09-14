@@ -173,6 +173,8 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `no-reply@m.higgsfield.ai` | Promo de producto (Higgsfield, herramienta de IA de video). Visto el 09/09/2026 |
 | `ship@info.vercel.com` | Newsletter/promo de producto de Vercel. Visto el 09/09/2026 |
 | `customer@slido.com` | Onboarding de producto de Slido (tips para la primera reunión). Visto el 09/09/2026, alguien del estudio creó una cuenta de Slido. **No confundir con `invoices@slido.com`**, que es facturación |
+| `experience@slido.com` | Pedido de feedback y reporte de interacción post evento de Slido (ej. workshop de MythLab IA CHV). Tercer subdominio de Slido en esta lista, todos de producto salvo `invoices@slido.com`. Visto el 13 y 14/09/2026 |
+| `noreply@email.openai.com` | Newsletter de producto de OpenAI/ChatGPT (plugins, novedades). Visto el 11/09/2026 |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -394,6 +396,7 @@ vencen a los 7 dias, y una invitacion vencida es trabajo perdido.
 | `helena.ferronato@gmail.com` | Archivos `Historia_del_Transporte_BA_narrado_1080p`, v7, v9 y v12 | 07/08, 12/08 y 18/08/2026 |
 | `admin@nomastudio.ai` | Diseño de Canva "Chile Vision_Organigrama con stickers". **Solicitante interno**, primer caso de este tipo | 25/08/2026 |
 | `@nachomallavia` (GitHub) | Invitacion a colaborar en el repo `nachomallavia/opciones-otro-mundo`, material de Otro Mundo. **Vence el 01/09/2026** | 25/08/2026 |
+| `@nachomallavia` (GitHub) | Segunda invitacion, ahora al repo `nachomallavia/nuevo-sitio-om`, tambien material de Otro Mundo. **Vence el 19/09/2026** | 12/09/2026 |
 | Federico Asis (`federico@nomastudio.ai`) | Diseño de Canva "Organigrama _mails". **Segundo solicitante interno en dos dias** | 26/08/2026 |
 | Julio Ignacio Skuarek (externo, dominio no visible en el mail) | Diseño de Canva "Amigurumis _Estrategia redes_Sal de ahi tortugui 2026" | 09/09/2026 |
 
@@ -467,6 +470,14 @@ a Wizzy World y los tres con propietario Interstreet Recordings. Mismo escenario
 reclamo del distribuidor, sin push. **Confirma que un mismo video recopilatorio puede recibir
 reclamos nuevos en distintas fechas a medida que YouTube identifica mas audios**, no es un
 evento unico por video.
+
+Cuarto caso, 13/09/2026: otra vez el mismo titulo de video recopilatorio, con tres audios
+reclamados ("Time To Go To Bed", "Pop Pop Pop" e "I see"), los tres acreditados a Wizzy World
+y con propietario Interstreet Recordings. Mismo escenario de auto reclamo, sin push. El link
+de YouTube Studio de este caso apunta a un ID de video (`lwCwDid4_3M`) distinto de los IDs
+`XFTHj9Ng_5Y` y `7S7lV8LvkVs` de los casos anteriores, asi que hay que verificar si es un
+tercer video recopilatorio con el mismo nombre o una particularidad del link de Studio, antes
+de asumir que es el mismo video de siempre.
 
 ## Sin resolver: propuesta comercial de Google Ads
 
