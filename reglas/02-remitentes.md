@@ -312,6 +312,7 @@ resume, y **si piden precio, plazo o alcance no se responden**, van a `ACCION RE
 | Remitente | Qué pidió | Cuándo |
 |---|---|---|
 | `paloalvarez45@gmail.com` | Paloma Alvarez. Rango de costos de referencia para una serie de 3 a 5 reels animados con IA, para su Trabajo Final de Grado en la Universidad Siglo 21. Cita a Wizzy y a Los Amigurumis como referencia. **Respondida el 24/08/2026 con los valores que aportó Nicolás.** Etiquetada `Claude/Respondido` y archivada | 21/08/2026 |
+| Dominio `rial.io`, con copia a dominio `bucleia.com` | Encargo puntual: animar un frame fijo a video de 5 segundos agregando dos elementos realistas. **Declinado directamente por un humano el mismo día** (respuesta real `SENT`, no borrador), citando el modelo B2B del estudio con mínimo de producción. La corrida solo archivó el hilo ya resuelto, no generó la respuesta | 14/09/2026 |
 
 **A ella se le respondió porque Nicolás dictó el contenido, no porque el criterio haya
 cambiado.** Un pedido de precio se sigue sin contestar solo. Los valores de referencia que
@@ -399,6 +400,7 @@ vencen a los 7 dias, y una invitacion vencida es trabajo perdido.
 | `@nachomallavia` (GitHub) | Segunda invitacion, ahora al repo `nachomallavia/nuevo-sitio-om`, tambien material de Otro Mundo. **Vence el 19/09/2026** | 12/09/2026 |
 | Federico Asis (`federico@nomastudio.ai`) | Diseño de Canva "Organigrama _mails". **Segundo solicitante interno en dos dias** | 26/08/2026 |
 | Julio Ignacio Skuarek (externo, dominio no visible en el mail) | Diseño de Canva "Amigurumis _Estrategia redes_Sal de ahi tortugui 2026" | 09/09/2026 |
+| Gonza (vía Canva, dominio no visible en el mail) | Diseño "[ DARK EDICIÓN ] Wizzy Pitch Deck Final NOMA", material de Wizzy | 14/09/2026 |
 
 **Dos pedidos internos de acceso a organigramas en Canva en dos dias no son dos
 notificaciones, son un problema de permisos.** El 25/08 `admin@nomastudio.ai` pidio
