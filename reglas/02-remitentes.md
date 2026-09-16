@@ -42,6 +42,11 @@ Direcciones personales de gente del equipo que aparecen en hilos, sobre todo de 
 `fedeasis@gmail.com` (Federico) y `florenciamaragreco@gmail.com` (Florencia Greco). Son
 internas aunque el dominio sea Gmail.
 
+`ruarten@gmail.com` es la direccion personal de **Nicolas Ruarte** (firma "Director
+Creativo, nomastudio.ai"), visto el 15/09/2026 en el hilo "OM · Área I+D · Posteo Suno v6"
+coordinando con el equipo de Otro Mundo la fecha de publicacion. Es interna aunque el
+dominio sea Gmail, mismo criterio que `fedeasis@gmail.com`.
+
 Direcciones que **rebotan** y hay que avisar que están mal en alguna lista:
 `noma.claw@nomastudio.ai`, `manuela.cortes@nomastudio.ai`,
 `nacho.mallavia@nomastudio.ai` (nueva, primer rebote visto el 20/08/2026).
@@ -175,6 +180,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `customer@slido.com` | Onboarding de producto de Slido (tips para la primera reunión). Visto el 09/09/2026, alguien del estudio creó una cuenta de Slido. **No confundir con `invoices@slido.com`**, que es facturación |
 | `experience@slido.com` | Pedido de feedback y reporte de interacción post evento de Slido (ej. workshop de MythLab IA CHV). Tercer subdominio de Slido en esta lista, todos de producto salvo `invoices@slido.com`. Visto el 13 y 14/09/2026 |
 | `noreply@email.openai.com` | Newsletter de producto de OpenAI/ChatGPT (plugins, novedades). Visto el 11/09/2026 |
+| `one@emails.one.lat` | Promo de ONE (plataforma de distribucion/pagos), invitacion a un vivo/webinar. Visto el 16/09/2026 |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -253,6 +259,7 @@ es push inmediato.
 | `googleaistudio-noreply@google.com` | Facturación de la API de Gemini. Si trae fecha límite, `Pagos y Suscripciones` más `ACCION REQUERIDA` y queda en inbox |
 | `comfy-cloud@updates.comfy.org` | Invitaciones a equipos de Comfy. Informativas, archivar |
 | `notify-noreply@google.com` | Invitaciones a acceder a un Google Tag (Tag Manager). Categoria I, no notificacion de plataforma pasiva: **`ACCION REQUERIDA`, queda en inbox.** Visto el 09/09/2026: invitacion al tag "Otro Mundo" (cliente activo), administrado por `agamboa1410@gmail.com`, `internacional@otromundo.com.ar`, `mauricio.morales@trinom.io` y `servicios@otromundo.com.ar` |
+| `no_reply@insideapple.apple.com` | Apple Business, avisos de cuenta con decision requerida (ej. terminos y condiciones nuevos a aceptar). **No es lo mismo que `no-reply@apple.com`** (notificaciones informativas, ruido). Aceptar terminos no lo decide la casilla: `ACCION REQUERIDA`, queda en inbox, la fecha limite va en el resumen. Visto el 15/09/2026: actualizacion de Terminos y Condiciones de Apple Business, plazo para aceptar el 29/09/2026 |
 
 **Precedencia de Calendar contra la categoría E, resuelto el 26/08/2026.** Los avisos de
 Calendar llegan firmados por la dirección de quien creó el evento, que casi siempre es alguien
