@@ -181,6 +181,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `experience@slido.com` | Pedido de feedback y reporte de interacción post evento de Slido (ej. workshop de MythLab IA CHV). Tercer subdominio de Slido en esta lista, todos de producto salvo `invoices@slido.com`. Visto el 13 y 14/09/2026 |
 | `noreply@email.openai.com` | Newsletter de producto de OpenAI/ChatGPT (plugins, novedades). Visto el 11/09/2026 |
 | `one@emails.one.lat` | Promo de ONE (plataforma de distribucion/pagos), invitacion a un vivo/webinar. Visto el 16/09/2026 |
+| `forward@updates.resend.com` | Promo de Resend, invitacion a una conferencia propia ("Resend Forward") con descuento por tiempo limitado. Visto el 17/09/2026. **Cuarto subdominio de Resend en esta lista:** `onboarding@resend.dev` es el que manda las consultas `CONTACTO_WEB` (critico), `zeno@updates.resend.com` es el newsletter de producto, y este `forward@updates.resend.com` es promocion de un evento. Los tres `updates.resend.com`/`resend.dev` que no son `onboarding@` son ruido |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
