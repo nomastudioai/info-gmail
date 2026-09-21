@@ -77,7 +77,7 @@ Confirmados por Nicolás el 06/08/2026:
 |---|---|---|
 | Wizzy | Por completar | Carpeta de Drive "00 Wizzy Live". Los Fiure (`tomas.fiure@gmail.com`, `gonzalo.fiure@gmail.com`, y `alberto.fiure@cbrealty.com` visto el 09/09/2026 respondiendo un Decline de Wizzy Meet Jueves) y `juano.yorio@gmail.com` aparecen alrededor de este proyecto. Tiene tres reuniones recurrentes: Wizzy Meet Lunes, Wizzy Meet Jueves y WIZZY APP. **Canal de YouTube:** Wizzy World, `UCzJxotD6w1kDWKZABYZ5rDQ`. **Distribucion musical:** DistroKid, con el sello Interstreet Recordings en representacion de Wizzy World Inc. Ese dato importa para los reclamos de Content ID, ver la seccion del final |
 | Otro Mundo | `otromundo.com.ar` | Verificado en Bing Webmaster. Reunión recurrente "OM - IA VFX", los miércoles. El 09/08/2026 invitaron a info@ a administrar su perfil de Google Business "Otro Mundo - Escuela de arte", así que las notificaciones de ese perfil (opiniones, rendimiento) van a llegar acá |
-| Chilevisión | Por completar | Aparece en el material del estudio como "Lab AI CHV" |
+| Chilevisión | `chilevision.cl` | **Dominio confirmado el 21/09/2026**, primer mail visto en la casilla. Contacto `Nicolas.Ruarte@chilevision.cl` / `mythlab@chilevision.cl`, firma "MythLab IA CHV". Aparece en el material del estudio como "Lab AI CHV" |
 | Mundoloco | Por completar | |
 | Grupo Vytal | Por completar | |
 | Spectrum | Por completar | |
@@ -181,6 +181,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `experience@slido.com` | Pedido de feedback y reporte de interacción post evento de Slido (ej. workshop de MythLab IA CHV). Tercer subdominio de Slido en esta lista, todos de producto salvo `invoices@slido.com`. Visto el 13 y 14/09/2026 |
 | `noreply@email.openai.com` | Newsletter de producto de OpenAI/ChatGPT (plugins, novedades). Visto el 11/09/2026 |
 | `one@emails.one.lat` | Promo de ONE (plataforma de distribucion/pagos), invitacion a un vivo/webinar. Visto el 16/09/2026 |
+| `support@devpost.com` | Notificacion de gamificacion/logro ("Check out your new achievement!") de la plataforma Devpost, donde el estudio tiene un perfil. Sin relacion con ningun cliente ni proyecto. Visto el 18/09/2026 | Ruido, notificacion de producto |
 | `forward@updates.resend.com` | Promo de Resend, invitacion a una conferencia propia ("Resend Forward") con descuento por tiempo limitado. Visto el 17/09/2026. **Cuarto subdominio de Resend en esta lista:** `onboarding@resend.dev` es el que manda las consultas `CONTACTO_WEB` (critico), `zeno@updates.resend.com` es el newsletter de producto, y este `forward@updates.resend.com` es promocion de un evento. Los tres `updates.resend.com`/`resend.dev` que no son `onboarding@` son ruido |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
@@ -319,6 +320,8 @@ resume, y **si piden precio, plazo o alcance no se responden**, van a `ACCION RE
 
 | Remitente | Qué pidió | Cuándo |
 |---|---|---|
+| `pfernandez@gador.com` | Paula Fernandez, Gerente de Publicidad e Imagen Corporativa en Gador (laboratorio farmaceutico). Pide una propuesta para un taller de IA aplicada a gestion de proyectos creativos para su equipo, con brief adjunto (documento y captura). Pide precio/propuesta, asi que no se responde sola: `ACCION REQUERIDA`, queda en inbox. **Lead de alto valor por el tipo de empresa**, sumada al resumen con push | 18/09/2026 |
+| `mike@hybridfilms.ai` | "Kalyan, en nombre de Mike, Founder & CEO de HybridFilms". Pide una videollamada breve aprovechando que Mike esta de paso por Brasil el 25 y 26/09, buscando "production companies, studios, agencies y creative teams en Argentina". Sin proyecto concreto, sin dato especifico del estudio, mismo patron de cadencia de ventas ("on behalf of"). Clasificado cold outreach, archivado. Insistio con un segundo mail de seguimiento el 21/09/2026, misma ventana de dos dias | 19-21/09/2026 |
 | `paloalvarez45@gmail.com` | Paloma Alvarez. Rango de costos de referencia para una serie de 3 a 5 reels animados con IA, para su Trabajo Final de Grado en la Universidad Siglo 21. Cita a Wizzy y a Los Amigurumis como referencia. **Respondida el 24/08/2026 con los valores que aportó Nicolás.** Etiquetada `Claude/Respondido` y archivada | 21/08/2026 |
 | Dominio `rial.io`, con copia a dominio `bucleia.com` | Encargo puntual: animar un frame fijo a video de 5 segundos agregando dos elementos realistas. **Declinado directamente por un humano el mismo día** (respuesta real `SENT`, no borrador), citando el modelo B2B del estudio con mínimo de producción. La corrida solo archivó el hilo ya resuelto, no generó la respuesta | 14/09/2026 |
 
