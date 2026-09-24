@@ -185,6 +185,8 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `forward@updates.resend.com` | Promo de Resend, invitacion a una conferencia propia ("Resend Forward") con descuento por tiempo limitado. Visto el 17/09/2026. **Cuarto subdominio de Resend en esta lista:** `onboarding@resend.dev` es el que manda las consultas `CONTACTO_WEB` (critico), `zeno@updates.resend.com` es el newsletter de producto, y este `forward@updates.resend.com` es promocion de un evento. Los tres `updates.resend.com`/`resend.dev` que no son `onboarding@` son ruido |
 | `no-reply@notices.dropbox.com` | Aviso generico de cambios en los Terminos de Servicio y la Politica de Privacidad de Dropbox, vigentes desde una fecha futura (visto el 21/09/2026, entran en vigencia el 01/01/2027). Puramente informativo, sin pedido de accion ni de aceptacion inmediata. Se archiva como ruido |
 | `posts-recaps@mail.instagram.com` | Notificacion social de Instagram, resumen de publicaciones de cuentas seguidas ("catch up on moments you've missed"). Sin relacion con ningun cliente ni proyecto del estudio. Visto el 23/09/2026 | Ruido, notificacion social |
+| `partnerships@fracturedgrid.com` | Cold outreach. Nikolai Savelev, guionista con base en Dubai, ofrece licenciar guiones y proyectos de IP propia (formato serie vertical, serie larga, largometraje) con varios PDF adjuntos. No pide servicios de produccion, ofrece vender/licenciar su material. Visto el 24/09/2026 | Ruido, cold outreach |
+| `darlyze@devpost.com` | Promo de un hackathon de aprendizaje ("Devpost Learn"), sin relacion con ningun proyecto del estudio. Visto el 24/09/2026 | Ruido, promo de plataforma |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -195,6 +197,12 @@ ruido. Mirá el subdominio antes de archivar.
 contratado por el estudio son alertas de cumplimiento reales (categoría B). Si no, es
 prospección (categoría A). Mientras no esté confirmado va a `Alertas Sistema`, que es la
 opción reversible. Preguntar a Nicolás.
+
+**Tercer tipo de mail de `info@iubenda.com`, visto el 24/09/2026:** una promocion de upgrade de
+plan ("Your site could score 4x higher"), dirigida a "tu sitio" en segunda persona, lo que sugiere
+que si existe una cuenta con plan gratuito de iubenda a nombre del estudio. Es un indicio a favor
+de que iubenda SI es un servicio contratado, pero no una confirmacion. Mientras Nicolas no lo
+confirme, sigue yendo a `Alertas Sistema` por el criterio reversible de siempre.
 
 **`info@iubenda.com` manda dos tipos de mail distintos, visto el 02/09/2026.** Los tres de
 agosto eran sobre la política de privacidad del sitio, lo que motivó la duda de arriba. El
@@ -281,6 +289,18 @@ actualización de la videoconferencia de "OM - Nueva Web | SEO | Ads" firmada po
 `invoice+statements@suno.com`, `billing@shopify.com`, `team@info.hostinger.com`,
 `noreply@notify.cloudflare.com`, `invoices@slido.com`, y en general cualquier remitente
 cuyo asunto contenga factura, invoice, receipt, comprobante, pago confirmado o payment.
+
+**`no-reply@mgx.cabify.com` visto el 24/09/2026.** Comprobante de un viaje en Cabify a nombre de
+Orlando (mismo nombre que ya figura como titular de la cuenta de Cloudflare del estudio en la
+seccion de facturacion mas abajo). No trae factura de un cliente ni de un proveedor de software,
+es un gasto de viaje. Se procesa igual que cualquier comprobante: `Pagos y Suscripciones`,
+archivar, monto y fecha en el resumen. No se sabe si hay una cuenta corporativa de Cabify
+detras; si vuelve a aparecer conviene confirmar con Nicolas.
+
+**`facundo.n.gonz@gmail.com` visto el 24/09/2026.** Portfolio/CV de "Creador de contenido con
+IA" mandado dos veces seguidas en la misma tarde (18:18 y 18:24). Mismo tratamiento que
+cualquier CV que no entra por el formulario de la web: `RRHH`, no se responde, se escala en el
+resumen. No se responde dos veces por el duplicado.
 
 **`invoices@slido.com` confirmado el 09/09/2026:** plan ENGAGE (one-time), USD 60,00. Slido
 es una herramienta de encuestas/Q&A para reuniones, nueva en la casilla. No confundir con
