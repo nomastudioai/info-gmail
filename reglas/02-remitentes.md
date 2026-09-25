@@ -187,6 +187,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `posts-recaps@mail.instagram.com` | Notificacion social de Instagram, resumen de publicaciones de cuentas seguidas ("catch up on moments you've missed"). Sin relacion con ningun cliente ni proyecto del estudio. Visto el 23/09/2026 | Ruido, notificacion social |
 | `partnerships@fracturedgrid.com` | Cold outreach. Nikolai Savelev, guionista con base en Dubai, ofrece licenciar guiones y proyectos de IP propia (formato serie vertical, serie larga, largometraje) con varios PDF adjuntos. No pide servicios de produccion, ofrece vender/licenciar su material. Visto el 24/09/2026 | Ruido, cold outreach |
 | `darlyze@devpost.com` | Promo de un hackathon de aprendizaje ("Devpost Learn"), sin relacion con ningun proyecto del estudio. Visto el 24/09/2026 | Ruido, promo de plataforma |
+| `team@updates.hostinger.com` | Newsletter de producto de Hostinger (AI Builder, Hostinger Agent, GPU as a Service), asunto "AI Builder ya esta aqui". Visto el 24/09/2026. **No confundir con `team@info.hostinger.com`**, que es la trampa que trae facturas con asunto de marketing: este de `updates.hostinger.com` se abrio el cuerpo completo y es puro newsletter, sin factura | Ruido, newsletter |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -343,9 +344,10 @@ resume, y **si piden precio, plazo o alcance no se responden**, van a `ACCION RE
 | Remitente | Qué pidió | Cuándo |
 |---|---|---|
 | `pfernandez@gador.com` | Paula Fernandez, Gerente de Publicidad e Imagen Corporativa en Gador (laboratorio farmaceutico). Pide una propuesta para un taller de IA aplicada a gestion de proyectos creativos para su equipo, con brief adjunto (documento y captura). Pide precio/propuesta, asi que no se responde sola: `ACCION REQUERIDA`, queda en inbox. **Lead de alto valor por el tipo de empresa**, sumada al resumen con push | 18/09/2026 |
-| `mike@hybridfilms.ai` | "Kalyan, en nombre de Mike, Founder & CEO de HybridFilms". Pide una videollamada breve aprovechando que Mike esta de paso por Brasil el 25 y 26/09, buscando "production companies, studios, agencies y creative teams en Argentina". Sin proyecto concreto, sin dato especifico del estudio, mismo patron de cadencia de ventas ("on behalf of"). Clasificado cold outreach, archivado. Insistio con un segundo mail de seguimiento el 21/09/2026, misma ventana de dos dias | 19-21/09/2026 |
+| `mike@hybridfilms.ai` | "Kalyan, en nombre de Mike, Founder & CEO de HybridFilms". Pide una videollamada breve aprovechando que Mike esta de paso por Brasil, buscando "production companies, studios, agencies y creative teams en Argentina". Sin proyecto concreto, sin dato especifico del estudio, mismo patron de cadencia de ventas ("on behalf of"). Clasificado cold outreach, archivado. Insistio con un segundo mail de seguimiento el 21/09/2026 y un tercero el 25/09/2026 (corriendo la fecha de Mike en Brasil cada vez). **Tercera insistencia: se aplico la plantilla C de `derivacion.md`** (borrador de baja unica en ingles) y se mando el hilo a papelera. Si vuelve a escribir, directo a papelera sin responder de nuevo | 19-25/09/2026 |
 | `paloalvarez45@gmail.com` | Paloma Alvarez. Rango de costos de referencia para una serie de 3 a 5 reels animados con IA, para su Trabajo Final de Grado en la Universidad Siglo 21. Cita a Wizzy y a Los Amigurumis como referencia. **Respondida el 24/08/2026 con los valores que aportó Nicolás.** Etiquetada `Claude/Respondido` y archivada | 21/08/2026 |
 | Dominio `rial.io`, con copia a dominio `bucleia.com` | Encargo puntual: animar un frame fijo a video de 5 segundos agregando dos elementos realistas. **Declinado directamente por un humano el mismo día** (respuesta real `SENT`, no borrador), citando el modelo B2B del estudio con mínimo de producción. La corrida solo archivó el hilo ya resuelto, no generó la respuesta | 14/09/2026 |
+| `dylandluhano05102010@gmail.com` | Consulta web vaga, una sola frase ("En crear vídeos"), mandada dos veces seguidas. Quedó sin responder desde el 29/05/2026, detectada recién el 25/09/2026 en el control de conversaciones abandonadas: nunca tuvo `Claude/Respondido` ni `Claude/Revisar`, solo se acumuló en el inbox con la etiqueta NOMA WEB. Respondida hoy con la plantilla B (consulta vaga, pedir que amplíe), etiquetada `Claude/Respondido` y archivada | 29/05/2026 (respondida 25/09/2026) |
 
 **A ella se le respondió porque Nicolás dictó el contenido, no porque el criterio haya
 cambiado.** Un pedido de precio se sigue sin contestar solo. Los valores de referencia que
@@ -434,6 +436,7 @@ vencen a los 7 dias, y una invitacion vencida es trabajo perdido.
 | Federico Asis (`federico@nomastudio.ai`) | Diseño de Canva "Organigrama _mails". **Segundo solicitante interno en dos dias** | 26/08/2026 |
 | Julio Ignacio Skuarek (externo, dominio no visible en el mail) | Diseño de Canva "Amigurumis _Estrategia redes_Sal de ahi tortugui 2026" | 09/09/2026 |
 | Gonza (vía Canva, dominio no visible en el mail) | Diseño "[ DARK EDICIÓN ] Wizzy Pitch Deck Final NOMA", material de Wizzy | 14/09/2026 |
+| Cintia Trobbiani (`cintia.trobbiani@nomastudio.ai`, interna) | Diseño de Canva "Amigurumis_Cuento_Hiro y el camino de la lana_ESP", material de Los Amigurumis | 25/09/2026 |
 
 **Dos pedidos internos de acceso a organigramas en Canva en dos dias no son dos
 notificaciones, son un problema de permisos.** El 25/08 `admin@nomastudio.ai` pidio
@@ -513,6 +516,26 @@ de YouTube Studio de este caso apunta a un ID de video (`lwCwDid4_3M`) distinto 
 `XFTHj9Ng_5Y` y `7S7lV8LvkVs` de los casos anteriores, asi que hay que verificar si es un
 tercer video recopilatorio con el mismo nombre o una particularidad del link de Studio, antes
 de asumir que es el mismo video de siempre.
+
+**Confirmado el 25/09/2026: son videos distintos, no una particularidad del link.** Llego un
+quinto reclamo sobre el mismo titulo "Best Kids Songs Live 24/7...", esta vez con ID `xuwHARJVD58`
+(5 reclamos: "¡Que llueva la Magia!", "Pop Pop Pop", "Hora de ir a Dormir", todos Interstreet
+Recordings). Es el cuarto ID distinto para el mismo titulo de recopilatorio 24/7. El canal sube
+mas de un video con el mismo nombre a lo largo del tiempo, asi que cada reclamo hay que tratarlo
+por su propio ID, no asumir que es una actualizacion del mismo video.
+
+**Mismo dia, 25/09/2026, aparece una serie nueva de recopilatorios con Cris Morena.** Tres
+videos, uno por idioma, cada uno con su propio reclamo de Interstreet Recordings:
+- ES: "Compilado 1 Hora de Canciones Infantiles de Wizzy y Cris Morena ✨ | 27 Canciones
+  Animadas", ID `ZmhgbVdupw8`, 13 reclamos.
+- EN: "1 Hour Wizzy & Cris Morena Kids Songs Compilation ✨ | 27 Animated Songs for Toddlers",
+  ID `6qTjqiisKJ8`, 7 reclamos.
+- PT: "Compilado 1 Hora de Músicas Infantis de Wizzy e Cris Morena ✨ | 27 Músicas Animadas",
+  ID `wrPqPoCyyD4`, 16 reclamos.
+
+Mismo escenario de siempre (auto reclamo del distribuidor, Interstreet Recordings sobre audio
+de Wizzy World), sin push. Lo nuevo es la colaboracion con Cris Morena como recopilatorio
+propio en tres idiomas, primera vez que se ve ese nombre en la casilla.
 
 ## Sin resolver: propuesta comercial de Google Ads
 
