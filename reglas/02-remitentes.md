@@ -537,6 +537,13 @@ Mismo escenario de siempre (auto reclamo del distribuidor, Interstreet Recording
 de Wizzy World), sin push. Lo nuevo es la colaboracion con Cris Morena como recopilatorio
 propio en tres idiomas, primera vez que se ve ese nombre en la casilla.
 
+Sexto caso, 26/09/2026 (procesado 28/09/2026): otra vez "Best Kids Songs Live 24/7...", con
+un sexto ID de video distinto (`TONVOZi82no`) a los cinco anteriores. Trae 6 audios reclamados
+en total, entre ellos "A Guardar" (titulo nuevo, no visto antes) ademas de "¡Que llueva la
+Magia!" y "Pop Pop Pop" ya conocidos. Mismo escenario de auto reclamo de Interstreet
+Recordings, sin push. Confirma de nuevo que cada ID de video de este recopilatorio recurrente
+se trata por separado.
+
 ## Sin resolver: propuesta comercial de Google Ads
 
 | Remitente | Que mando | Cuando |

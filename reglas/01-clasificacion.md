@@ -100,6 +100,23 @@ No redactes vos la respuesta a una conversación abandonada por semanas. Retomar
 frío requiere decidir si se pide disculpas y si se ofrece algo concreto, y eso lo define
 un humano.
 
+**Todo hilo `NOMA WEB` procesado tiene que quedar con `Claude/Respondido` o
+`Claude/Revisar`, sin excepción, incluido el spam y el cold outreach que se archiva sin
+responder.** Aclarado el 28/09/2026 después de encontrar seis hilos viejos (mayo a
+agosto) correctamente archivados como spam pero sin ninguna de las dos etiquetas: eso los
+hacía aparecer una y otra vez en el chequeo de abandonados como si nunca se hubieran
+revisado. Un hilo sin etiqueta de proceso cuenta como pendiente en este chequeo,
+**incluso si nunca hubo un primer intercambio real**, sin importar cuánto tiempo lleve
+archivado.
+
+**Una consulta con interés comercial genuino que quedó marcada `ACCION REQUERIDA` pero
+nunca recibió ni la respuesta automática de plantilla es el mismo problema con otra
+forma.** Visto el 28/09/2026: dos leads con proyecto descripto (uno del 04/08, otro del
+08/07) llevaban 55 y 82 días con la etiqueta puesta y sin que se les mandara el primer
+mail pidiendo más datos. El chequeo de abandonadas tiene que incluir también los hilos
+`ACCION REQUERIDA` de categoría D que no tienen `Claude/Respondido`, no solo los que
+tienen el último mensaje del interesado.
+
 ## E. Interno del equipo
 
 Cualquier remitente `@nomastudio.ai`.
