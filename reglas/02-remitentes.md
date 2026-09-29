@@ -129,6 +129,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `yolandyan@comfy.org` | Comfy |
 | `jo@comfy.org` | Comfy. **Contraparte directa de Nicolas** para el MCP y para el producto de agente in-app que estan por lanzar. Visto el 26/08/2026 respondiendo el planteo de los dos problemas de `upload_file`. Contesta con demora de un par de dias |
 | `mattmiller@comfy.org` | Comfy. Aparecio en copia en la respuesta de Jo del 26/08/2026 |
+| `yoland@comfy.org` | Comfy. Yoland Yan, CEO y co-founder. Escribio el 29/09/2026 ofreciendo "Comfy Router" (capa unica de API sobre varios proveedores de modelos) y proponiendo una llamada, con link a Calendly. **No es la misma direccion que `yolandyan@comfy.org`**, ya listada arriba: son dos direcciones distintas para la misma persona, o dos personas distintas con nombre parecido, sin confirmar |
 
 ## Ruido: archivar y marcar leído siempre
 
@@ -188,6 +189,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `partnerships@fracturedgrid.com` | Cold outreach. Nikolai Savelev, guionista con base en Dubai, ofrece licenciar guiones y proyectos de IP propia (formato serie vertical, serie larga, largometraje) con varios PDF adjuntos. No pide servicios de produccion, ofrece vender/licenciar su material. Visto el 24/09/2026 | Ruido, cold outreach |
 | `darlyze@devpost.com` | Promo de un hackathon de aprendizaje ("Devpost Learn"), sin relacion con ningun proyecto del estudio. Visto el 24/09/2026 | Ruido, promo de plataforma |
 | `team@updates.hostinger.com` | Newsletter de producto de Hostinger (AI Builder, Hostinger Agent, GPU as a Service), asunto "AI Builder ya esta aqui". Visto el 24/09/2026. **No confundir con `team@info.hostinger.com`**, que es la trampa que trae facturas con asunto de marketing: este de `updates.hostinger.com` se abrio el cuerpo completo y es puro newsletter, sin factura | Ruido, newsletter |
+| `zhengtongtian.kzyd@bytedance.com` | Cold outreach. "Day Zheng, AI consultant at BytePlus", ofrece prueba gratis de 14 dias de Dramagic, plataforma AIGC de BytePlus para produccion de "short drama". Visto el 29/09/2026 | Ruido, cold outreach |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -437,6 +439,7 @@ vencen a los 7 dias, y una invitacion vencida es trabajo perdido.
 | Julio Ignacio Skuarek (externo, dominio no visible en el mail) | Diseño de Canva "Amigurumis _Estrategia redes_Sal de ahi tortugui 2026" | 09/09/2026 |
 | Gonza (vía Canva, dominio no visible en el mail) | Diseño "[ DARK EDICIÓN ] Wizzy Pitch Deck Final NOMA", material de Wizzy | 14/09/2026 |
 | Cintia Trobbiani (`cintia.trobbiani@nomastudio.ai`, interna) | Diseño de Canva "Amigurumis_Cuento_Hiro y el camino de la lana_ESP", material de Los Amigurumis | 25/09/2026 |
+| `gimenez.jc31@gmail.com` (Vercel/GitHub, usuario `jcgimenez`) | Solicitud de membresia al equipo `nomastudioai` en Vercel, tras comitear codigo como no-miembro al proyecto `therasigna-cvcy` (cliente Therasigna). Primer caso de pedido de acceso a un equipo de Vercel, no a un archivo. Mismo criterio: no se otorga desde la casilla, `ACCION REQUERIDA`, queda en inbox | 28/09/2026 |
 
 **Dos pedidos internos de acceso a organigramas en Canva en dos dias no son dos
 notificaciones, son un problema de permisos.** El 25/08 `admin@nomastudio.ai` pidio
