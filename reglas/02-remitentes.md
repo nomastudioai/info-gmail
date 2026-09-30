@@ -190,6 +190,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `darlyze@devpost.com` | Promo de un hackathon de aprendizaje ("Devpost Learn"), sin relacion con ningun proyecto del estudio. Visto el 24/09/2026 | Ruido, promo de plataforma |
 | `team@updates.hostinger.com` | Newsletter de producto de Hostinger (AI Builder, Hostinger Agent, GPU as a Service), asunto "AI Builder ya esta aqui". Visto el 24/09/2026. **No confundir con `team@info.hostinger.com`**, que es la trampa que trae facturas con asunto de marketing: este de `updates.hostinger.com` se abrio el cuerpo completo y es puro newsletter, sin factura | Ruido, newsletter |
 | `zhengtongtian.kzyd@bytedance.com` | Cold outreach. "Day Zheng, AI consultant at BytePlus", ofrece prueba gratis de 14 dias de Dramagic, plataforma AIGC de BytePlus para produccion de "short drama". Visto el 29/09/2026 | Ruido, cold outreach |
+| `info@estudiomartin.com` | Newsletter semanal de EMA Group Consultores ("En Clave PyME"), novedades impositivas y laborales para PyMEs, con boton de baja propio. Sin relacion con ningun cliente ni proyecto del estudio. Visto el 30/09/2026 | Ruido, newsletter |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -324,6 +325,8 @@ de la tienda, y de ahí se saca de quién es el cargo. Visto el 24/08/2026: USD 
 la tienda de **US Ophthalmic, que es ex cliente**, cobrados a una Mastercard terminada en 7085.
 No se sabe si esa tarjeta es del estudio o del cliente, y no hay que suponerlo. El cargo se
 registra y se reporta, y **no se propone darlo de baja**, por la regla de ex clientes.
+
+**`notifications@vercel.com` visto el 30/09/2026.** Aviso de "billing correction": Vercel dice que por un error propio no estaba cobrando Speed Insights Plus en 1 proyecto, y a partir del proximo ciclo va a sumar USD 10/mes. No cobra retroactivo. Da la opcion de bajar el plan antes de que termine el ciclo actual para no pagar el aumento. Encaja en la excepcion de "suba de precio" de la categoria C: `Pagos y Suscripciones` mas `ACCION REQUERIDA`, queda en inbox, porque hay que decidir si se acepta el aumento o se baja el plan antes del corte. No amerita push por si solo (es un aumento chico y no es un cobro fallido), salvo que en el futuro aparezca junto con otras subas del mismo estilo.
 
 **`noreply@notify.cloudflare.com` manda tres tipos de mail y solo uno importa.** Las
 invitaciones a cuentas son informativas. Las facturas y confirmaciones de compra son categoría
