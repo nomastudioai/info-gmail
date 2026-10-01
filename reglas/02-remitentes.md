@@ -191,6 +191,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `team@updates.hostinger.com` | Newsletter de producto de Hostinger (AI Builder, Hostinger Agent, GPU as a Service), asunto "AI Builder ya esta aqui". Visto el 24/09/2026. **No confundir con `team@info.hostinger.com`**, que es la trampa que trae facturas con asunto de marketing: este de `updates.hostinger.com` se abrio el cuerpo completo y es puro newsletter, sin factura | Ruido, newsletter |
 | `zhengtongtian.kzyd@bytedance.com` | Cold outreach. "Day Zheng, AI consultant at BytePlus", ofrece prueba gratis de 14 dias de Dramagic, plataforma AIGC de BytePlus para produccion de "short drama". Visto el 29/09/2026 | Ruido, cold outreach |
 | `info@estudiomartin.com` | Newsletter semanal de EMA Group Consultores ("En Clave PyME"), novedades impositivas y laborales para PyMEs, con boton de baja propio. Sin relacion con ningun cliente ni proyecto del estudio. Visto el 30/09/2026 | Ruido, newsletter |
+| `messaging-digest-noreply@linkedin.com` | Digest de "tienes mensajes esperando" de LinkedIn, dirigido a la pagina de NoMa Studio AI. Notificacion social automatica, sin el contenido del mensaje. Visto el 30/09/2026 | Ruido, notificacion social |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -276,6 +277,20 @@ es push inmediato.
 | `comfy-cloud@updates.comfy.org` | Invitaciones a equipos de Comfy. Informativas, archivar |
 | `notify-noreply@google.com` | Invitaciones a acceder a un Google Tag (Tag Manager). Categoria I, no notificacion de plataforma pasiva: **`ACCION REQUERIDA`, queda en inbox.** Visto el 09/09/2026: invitacion al tag "Otro Mundo" (cliente activo), administrado por `agamboa1410@gmail.com`, `internacional@otromundo.com.ar`, `mauricio.morales@trinom.io` y `servicios@otromundo.com.ar` |
 | `no_reply@insideapple.apple.com` | Apple Business, avisos de cuenta con decision requerida (ej. terminos y condiciones nuevos a aceptar). **No es lo mismo que `no-reply@apple.com`** (notificaciones informativas, ruido). Aceptar terminos no lo decide la casilla: `ACCION REQUERIDA`, queda en inbox, la fecha limite va en el resumen. Visto el 15/09/2026: actualizacion de Terminos y Condiciones de Apple Business, plazo para aceptar el 29/09/2026 |
+
+**Segundo subtipo informativo de `businessprofile-noreply@google.com`, visto el
+30/09/2026.** Ademas de las opiniones y de los informes de rendimiento, este remitente
+tambien manda anuncios de producto puramente informativos, por ejemplo que Google puede
+contactar al negocio por llamada, SMS o WhatsApp automatizados para verificar datos del
+perfil. Sin opinion, sin cambio de permisos, sin pedido de accion: mismo tratamiento que
+una foto nueva o un informe de rendimiento, Categoria A, se archiva.
+
+**Segundo patron de `noreply@github.com`, visto el 30/09/2026.** Ademas de las invitaciones
+a colaborar en un repositorio (cambio de permisos puntual sobre un repo), este remitente
+tambien manda avisos de que una GitHub App ya instalada (en este caso la propia app
+"Claude") esta pidiendo permisos actualizados sobre la cuenta completa. Es otro tipo de
+cambio de permisos, asi que mismo criterio de fondo: `ACCION REQUERIDA`, queda en inbox,
+no se acepta ni se ignora el pedido desde la casilla, lo decide Nicolas.
 
 **Precedencia de Calendar contra la categoría E, resuelto el 26/08/2026.** Los avisos de
 Calendar llegan firmados por la dirección de quien creó el evento, que casi siempre es alguien
