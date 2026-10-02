@@ -33,6 +33,7 @@ Cualquier dirección `@nomastudio.ai`. Las vistas hasta ahora:
 | `juancruz.gimenez@nomastudio.ai` | Equipo |
 | `magali.suescun@nomastudio.ai` | Equipo |
 | `nicolaskitashima@nomastudio.ai` | Equipo. Visto el 27/08/2026 en un hilo interno de revisión de una propuesta comercial |
+| `agostina.mures@nomastudio.ai` | Equipo. Visto el 01/10/2026 mandando directo a info@ su propia factura mensual en PDF ("Factura Septiembre 2026 - Agos"), sin pregunta en el cuerpo. **Primer caso de un miembro del equipo presentando su propia factura para pago.** No encaja limpio en categoría E (no es pregunta) ni en C (no es un proveedor externo). Mientras no haya regla propia: `ACCION REQUERIDA`, queda en inbox, se resume con el nombre y el mes, sin inventar el monto (está en el PDF adjunto, no en el cuerpo) |
 
 Las nueve últimas se relevaron el 21/08/2026 de la lista de destinatarios de las
 invitaciones de calendario que Federico Asis manda a todo el estudio. Son internas aunque
@@ -271,6 +272,7 @@ es push inmediato.
 | `drive-shares-dm-noreply@google.com` | Categoría I. Nunca otorgar acceso. Marcar en el resumen si el solicitante es externo al dominio |
 | Invitaciones y respuestas de Google Calendar | Etiquetar `Calendar`, archivar, marcar leído. No requieren acción salvo que el cuerpo traiga un pedido explícito |
 | `ads-account-noreply@google.com` y `ads-account-noreply@ads.google.com` | Etiquetar `Google ADS`. Los avisos de producto y de límite de impresiones se archivan. **Todo lo que sea cambio de permisos va a `ACCION REQUERIDA` y queda en inbox:** invitaciones a acceder a una cuenta, usuarios nuevos agregados, y los asuntos con "solicitud de seguridad" |
+| `ads-noreply@google.com` | **Cuarta variante de remitente de Google Ads, distinta de las dos de arriba** (que llevan "-account-"). Visto el 01/10/2026: "anuncio obligatorio del servicio" sobre un cambio de política editorial (requisitos de nombre de empresa) que empieza a aplicarse el 19/10/2026, dirigido a "estimado anunciante" en general, sin dato de cuenta puntual. Mismo tratamiento que los avisos de producto: etiquetar `Google ADS`, archivar |
 | `noreply@business-updates.facebook.com` y `noreply@business.facebook.com` | Etiquetar `META` y archivar. Son dos subdominios distintos del mismo emisor. El segundo se vio el 22/08/2026 con un aviso de política de uso de los chats de Messenger, y llegó duplicado en el mismo hilo |
 | `notifications@ae.linktr.ee` | Etiquetar `LinkTree` y archivar |
 | `googleaistudio-noreply@google.com` | Facturación de la API de Gemini. Si trae fecha límite, `Pagos y Suscripciones` más `ACCION REQUERIDA` y queda en inbox |
