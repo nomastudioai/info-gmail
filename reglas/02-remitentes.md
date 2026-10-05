@@ -173,6 +173,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `feedback@midjourney.com` | Newsletter de producto. Visto el 24/08/2026 con el anuncio de la V8.2 |
 | `g@clipzi.agency` | Cold outreach. Gonzalo Orsi, founder de Clipzi (`clipzi.app`). Ofrece acceso Creator gratis mas un blurb y capturas a cambio de que el estudio lo agregue a una lista de herramientas de IA para video. Primer contacto el 24/08/2026 |
 | `marketing@engage.canva.com` | Promo de Canva. Visto el 25/08/2026 con el anuncio del millon de ONG. **Tercer subdominio de Canva en esta lista y el unico que es ruido:** `no-reply@canva.com` son notificaciones de plataforma y pedidos de acceso, `no-reply@account.canva.com` es facturacion. Mira el subdominio antes de archivar |
+| `canvadesignschool@engage.canva.com` | Promo de Canva (Canva Design School), mismo subdominio `engage.canva.com` que `marketing@`. Visto el 03/10/2026 con un anuncio de video tutorial. Mismo tratamiento: ruido |
 | `no-reply@em-s.dropbox.com` | Promo de reactivacion de cuenta de Dropbox, del tipo "tu cuenta te espera cuando quieras volver". Visto el 29/08/2026. Sin factura ni alerta en el cuerpo, es puro marketing de retencion |
 | `lmybizexplore@mail.ru` | Cold outreach. Guan Leiming, de Weifang Leimingyun Network Technology Co. Ltd. Ofrece licenciar un bot de captacion de clientes a cambio de que el estudio ponga el link de ellos en el README del repositorio `info-gmail`. **Como mail es ruido y se archiva, pero el del 28/08/2026 no se archivo a proposito:** es la prueba de que el repositorio publico se lee desde afuera, ver el punto 1 del registro del 31/08. Si vuelve a escribir y el repo ya es privado, archivar sin mas |
 | `noreply@redditmail.com` | Notificaciones de recomendaciones/intereses de Reddit, sin relacion con ningun proyecto. Visto el 02/09/2026 | Ruido, notificacion social |
@@ -286,6 +287,16 @@ tambien manda anuncios de producto puramente informativos, por ejemplo que Googl
 contactar al negocio por llamada, SMS o WhatsApp automatizados para verificar datos del
 perfil. Sin opinion, sin cambio de permisos, sin pedido de accion: mismo tratamiento que
 una foto nueva o un informe de rendimiento, Categoria A, se archiva.
+
+**Tercer subtipo informativo de `businessprofile-noreply@google.com`, visto el
+04/10/2026.** Ademas de las opiniones, los informes de rendimiento y los anuncios de
+producto, este remitente tambien manda recordatorios genericos para cargar el horario
+especial de un feriado proximo ("¿abres en [feriado]?"). Es el mismo tipo de nudge
+proactivo que se manda a muchas empresas, sin dato puntual del perfil mas alla del
+nombre. Mismo tratamiento que un informe de rendimiento: se archiva como informativo,
+sin etiqueta ni resumen individual. Si en algun momento trae una fecha limite real o
+una consecuencia concreta de no actualizar el horario, ahi si conviene revisar el
+criterio.
 
 **Segundo patron de `noreply@github.com`, visto el 30/09/2026.** Ademas de las invitaciones
 a colaborar en un repositorio (cambio de permisos puntual sobre un repo), este remitente
