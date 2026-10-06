@@ -194,6 +194,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `zhengtongtian.kzyd@bytedance.com` | Cold outreach. "Day Zheng, AI consultant at BytePlus", ofrece prueba gratis de 14 dias de Dramagic, plataforma AIGC de BytePlus para produccion de "short drama". Visto el 29/09/2026 | Ruido, cold outreach |
 | `info@estudiomartin.com` | Newsletter semanal de EMA Group Consultores ("En Clave PyME"), novedades impositivas y laborales para PyMEs, con boton de baja propio. Sin relacion con ningun cliente ni proyecto del estudio. Visto el 30/09/2026 | Ruido, newsletter |
 | `messaging-digest-noreply@linkedin.com` | Digest de "tienes mensajes esperando" de LinkedIn, dirigido a la pagina de NoMa Studio AI. Notificacion social automatica, sin el contenido del mensaje. Visto el 30/09/2026 | Ruido, notificacion social |
+| `azubkov@slido.com` | Investigadora de producto de Slido pidiendo feedback sobre la funcion "Slido Ideas" a cambio de un vale de Amazon. Visto el 05/10/2026. **Cuarto subdominio de Slido en esta lista**, mismo tratamiento que `customer@` y `experience@slido.com`: ruido de producto, no confundir con `invoices@slido.com` (facturacion) | Ruido, cold outreach de producto |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -264,6 +265,11 @@ incidente futuro ahi es push o resumen.
 **Distinguir proyecto propio de proyecto de cliente antes de decidir el push.** `noma osint`,
 `NoMa-Prompts` y `Ticketera` son propios: van al resumen. Un servicio de un cliente caído sí
 es push inmediato.
+
+**Repo `nomastudioai/prode`, visto el 06/10/2026:** corrió falló un workflow de GitHub Actions
+("Update World Cup 2026"), todos los jobs cancelados. Por el nombre (prode de mundial) y estar
+bajo el org `nomastudioai`, se asume proyecto propio hasta que se confirme lo contrario: mismo
+tratamiento que `noma osint`, al resumen y sin push.
 
 ## Notificaciones de plataforma
 
@@ -381,6 +387,7 @@ resume, y **si piden precio, plazo o alcance no se responden**, van a `ACCION RE
 | `paloalvarez45@gmail.com` | Paloma Alvarez. Rango de costos de referencia para una serie de 3 a 5 reels animados con IA, para su Trabajo Final de Grado en la Universidad Siglo 21. Cita a Wizzy y a Los Amigurumis como referencia. **Respondida el 24/08/2026 con los valores que aportó Nicolás.** Etiquetada `Claude/Respondido` y archivada | 21/08/2026 |
 | Dominio `rial.io`, con copia a dominio `bucleia.com` | Encargo puntual: animar un frame fijo a video de 5 segundos agregando dos elementos realistas. **Declinado directamente por un humano el mismo día** (respuesta real `SENT`, no borrador), citando el modelo B2B del estudio con mínimo de producción. La corrida solo archivó el hilo ya resuelto, no generó la respuesta | 14/09/2026 |
 | `dylandluhano05102010@gmail.com` | Consulta web vaga, una sola frase ("En crear vídeos"), mandada dos veces seguidas. Quedó sin responder desde el 29/05/2026, detectada recién el 25/09/2026 en el control de conversaciones abandonadas: nunca tuvo `Claude/Respondido` ni `Claude/Revisar`, solo se acumuló en el inbox con la etiqueta NOMA WEB. Respondida hoy con la plantilla B (consulta vaga, pedir que amplíe), etiquetada `Claude/Respondido` y archivada | 29/05/2026 (respondida 25/09/2026) |
+| Lucila, dominio `memoob.com` (Media Moob) | Interés comercial con proyecto descripto: microseries producidas con IA para distribuir a través de operadores móviles. **Primer caso visto de doble canal casi simultáneo:** escribió por mail directo a info@ y un minuto y medio después mandó el mismo texto por el formulario `CONTACTO_WEB` de la web. Se respondió una sola vez, con la plantilla A, como respuesta al mail directo. Los dos hilos quedaron `Claude/Respondido` y `ACCION REQUERIDA` (Nicolás agenda la llamada si avanza) | 05/10/2026 |
 
 **A ella se le respondió porque Nicolás dictó el contenido, no porque el criterio haya
 cambiado.** Un pedido de precio se sigue sin contestar solo. Los valores de referencia que
