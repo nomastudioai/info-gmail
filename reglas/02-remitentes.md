@@ -195,6 +195,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `info@estudiomartin.com` | Newsletter semanal de EMA Group Consultores ("En Clave PyME"), novedades impositivas y laborales para PyMEs, con boton de baja propio. Sin relacion con ningun cliente ni proyecto del estudio. Visto el 30/09/2026 | Ruido, newsletter |
 | `messaging-digest-noreply@linkedin.com` | Digest de "tienes mensajes esperando" de LinkedIn, dirigido a la pagina de NoMa Studio AI. Notificacion social automatica, sin el contenido del mensaje. Visto el 30/09/2026 | Ruido, notificacion social |
 | `azubkov@slido.com` | Investigadora de producto de Slido pidiendo feedback sobre la funcion "Slido Ideas" a cambio de un vale de Amazon. Visto el 05/10/2026. **Cuarto subdominio de Slido en esta lista**, mismo tratamiento que `customer@` y `experience@slido.com`: ruido de producto, no confundir con `invoices@slido.com` (facturacion) | Ruido, cold outreach de producto |
+| `support@rebill.com` | Newsletter de producto de Rebill (plataforma de pagos/suscripciones), novedades de la plataforma (installments, sponsoreo de un evento, sandbox). Sin relacion con ningun cliente ni proyecto del estudio. Visto el 06/10/2026 | Ruido, newsletter |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -423,6 +424,16 @@ es categoria C y se archiva. Si el asunto trae codigo, code, OTP o verificacion,
 Las alertas de seguridad de Anthropic llegan desde direcciones con sufijo aleatorio, del
 tipo `no-reply-XXXXXXXX@mail.anthropic.com`. No se archivan ni se etiquetan: quedan en el
 inbox. En cambio `invoice+statements@mail.anthropic.com` es facturación y sí se archiva.
+
+**Alertas de limite de creditos de uso (spend limit), vistas el 07/10/2026.** Mismo formato
+de remitente con sufijo aleatorio, pero no son alertas de seguridad ni facturacion: son
+avisos de consumo de creditos de la organizacion, dirigidos a `admin@`, `csd@` e `info@`.
+Vinieron tres en la misma corrida: "usó el 75%", "se acerca al 90%" y la mas grave, "alcanzó
+el limite de gasto mensual, el equipo no puede usar Claude hasta que se aumente el limite".
+Las dos primeras son progreso informativo: `Alertas Sistema`, se archivan. La tercera bloquea
+el trabajo del estudio con Claude: `ACCION REQUERIDA`, queda en inbox, push inmediato. La
+misma corrida trajo 13 recibos de Anthropic en unas horas (contra un promedio de 1 a 4 por
+dia en corridas anteriores), probablemente relacionado con lo que agotó el limite.
 
 `login@app.opus.pro` manda codigos de verificacion de inicio de sesion. Visto el
 02/09/2026. No se toca, mismo tratamiento que el resto de los codigos de esta seccion.
