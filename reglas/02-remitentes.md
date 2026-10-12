@@ -196,6 +196,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `messaging-digest-noreply@linkedin.com` | Digest de "tienes mensajes esperando" de LinkedIn, dirigido a la pagina de NoMa Studio AI. Notificacion social automatica, sin el contenido del mensaje. Visto el 30/09/2026 | Ruido, notificacion social |
 | `azubkov@slido.com` | Investigadora de producto de Slido pidiendo feedback sobre la funcion "Slido Ideas" a cambio de un vale de Amazon. Visto el 05/10/2026. **Cuarto subdominio de Slido en esta lista**, mismo tratamiento que `customer@` y `experience@slido.com`: ruido de producto, no confundir con `invoices@slido.com` (facturacion) | Ruido, cold outreach de producto |
 | `support@rebill.com` | Newsletter de producto de Rebill (plataforma de pagos/suscripciones), novedades de la plataforma (installments, sponsoreo de un evento, sandbox). Sin relacion con ningun cliente ni proyecto del estudio. Visto el 06/10/2026 | Ruido, newsletter |
+| `rufusgavin30@gmail.com` | Cold outreach. "Doc, de Galactic Elephant", musico retirado, ofrece licenciar una cancion propia ("Our Love", producida con Suno) para peliculas, series o trailers. No pide servicios, ofrece licenciar material propio. Mismo patron que `partnerships@fracturedgrid.com` (guionista ofreciendo IP propia). Visto el 10/10/2026 | Ruido, cold outreach |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -630,6 +631,23 @@ Criterio: etiquetar `Google ADS` mas `ACCION REQUERIDA`, queda en inbox, se repo
 resumen. No es push automatico (no es una caida de produccion en el sentido de servicio
 caido), pero si el motivo es un error 404 en la landing page conviene avisar que la pagina de
 destino puede estar rota, no solo el anuncio.
+
+## Invitaciones a eventos y ferias (nuevo, visto el 11/10/2026)
+
+No hay categoria propia para esto en `01-clasificacion.md` todavia. Primer caso visto:
+`mariana@mediaparty.org` (con copia a `production@mediaparty.org`), equipo de produccion de
+Media Party Buenos Aires 2026. Avisa que preseleccionaron al estudio para mostrar un
+proyecto/servicio/producto en la "Media Feria" del evento (Ciudad Cultural Konex, 29/10/2026),
+y pide confirmar disponibilidad por formulario **antes del jueves 15/10/2026**, o el lugar se
+pierde. No cubre viaticos salvo invitacion especifica, y pide que el expositor se registre
+aparte en Eventbrite.
+
+No es cliente, no es lead de la web, no es interno: es una invitacion/oportunidad de
+visibilidad para el estudio propio, con una decision y una accion concreta (completar el
+formulario) que solo puede tomar Nicolas, y con plazo corto. Criterio aplicado: `ACCION
+REQUERIDA`, queda en inbox, no se completa el formulario desde la casilla, se resalta el plazo
+en el resumen por lo ajustado del tiempo. Si vuelve a aparecer este tipo de invitacion,
+conviene proponerle a Nicolas una categoria propia en `01-clasificacion.md`.
 
 ## Rutina de Claude para Otro Mundo (Area I+D)
 
