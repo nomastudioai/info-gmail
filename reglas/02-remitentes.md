@@ -649,6 +649,22 @@ REQUERIDA`, queda en inbox, no se completa el formulario desde la casilla, se re
 en el resumen por lo ajustado del tiempo. Si vuelve a aparecer este tipo de invitacion,
 conviene proponerle a Nicolas una categoria propia en `01-clasificacion.md`.
 
+## Avisos tecnicos de desarrollo, sin categoria propia
+
+`workspace-noreply@google.com` manda avisos dirigidos a quien administra o desarrolla
+aplicaciones conectadas a Google Workspace por OAuth. Visto el 12/10/2026 (procesado el
+13/10/2026): aviso de que a partir del 11/11/2026 los servidores MCP de Google Workspace
+van a rechazar pedidos de clientes OAuth que no esten marcados como "agentic", y que el
+11/12/2026 esa marca queda fija. Lista proyectos del estudio afectados: `noma-cloudflare-access`,
+`gen-lang-client-0401517467`, `noman8n`, `amigu-efemerides`, `noma-claw-487301`.
+
+No es alerta de sistema (no hay servicio caido), no es facturacion, no es cliente ni
+interno: es el mismo tipo de situacion que el aviso de permisos actualizados de la app
+Claude en GitHub, una decision tecnica que solo puede tomar quien administra esas
+cuentas de Google Cloud. Criterio aplicado: `ACCION REQUERIDA` mas `Claude/Revisar`
+(no hay categoria limpia en `01-clasificacion.md`), queda en inbox, la fecha limite va en
+el resumen. No se marca ningun cliente OAuth como agentic desde la casilla.
+
 ## Rutina de Claude para Otro Mundo (Area I+D)
 
 `no-reply-claude@mail.anthropic.com` con asunto que empieza "⚡ OM · Área I+D" manda el
