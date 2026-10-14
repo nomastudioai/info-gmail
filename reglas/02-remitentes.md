@@ -603,6 +603,7 @@ se trata por separado.
 |---|---|---|
 | `mirandavalera@google.com` | Miranda Valera, dice ser Account Strategist de Google Ads. Ofrece una asesoria de 20 a 30 minutos sobre la cuenta de Ads del estudio, con link a su agenda. **Sin clasificar a proposito** | 24/08/2026 |
 | `faelo@xwf.google.com` | Faelo Brenda, mismo patron. "Ultimo seguimiento" sobre la cuenta de Ads de **Otro Mundo** (cliente activo), tono de cierre de trimestre, boton de agenda, sin un dato concreto de la cuenta | 31/08/2026 |
+| `anuragchauhan@xwf.google.com` | Anurag Chauhan, mismo patron ("tu nuevo experto en Google Ads"), ahora apuntando a la cuenta de **Wizzy World** (cliente activo), ID de cliente 724-430-4831. Boton de agenda, sin dato de rendimiento concreto, firma "en nombre de Google". Tercer caso del mismo esquema en siete semanas, cada vez sobre una cuenta distinta (estudio, Otro Mundo, Wizzy) | 13/10/2026 |
 
 Las senales estan repartidas y no cierran para ningun lado. A favor de que sea real: el
 dominio es de Google (`google.com` o el subdominio `xwf.google.com`) y habla de una cuenta de
