@@ -97,9 +97,29 @@ acá y commiteá.
 | Los Amigurumis | `theamigurumis.com`, `m.theamigurumis.com` |
 | NoMa Academy | Producto de formación del estudio. Lo maneja Felipe Cortes |
 | Ticketera | Proyecto propio alojado en Railway |
+| La Fileteadora | Proyecto propio alojado en Railway (`fileteadora`). Confirmado el 15/10/2026 cuando Railway avisó que el proyecto quedó en cola de borrado, ver la nota de abajo |
 
 Un mail sobre estos proyectos no es un mail de cliente, pero sí es del estudio. Las
 alertas técnicas siguen la categoría B y todo lo de NoMa Academy va a Felipe.
+
+## Incidente Railway: borrado programado de Wizzy y fileteadora (15/10/2026)
+
+El 14/10/2026 a las 18:53 y 18:54hs, Railway avisó que los proyectos **Wizzy** (cliente
+activo) y **fileteadora** (propio, La Fileteadora) quedaron en cola de borrado por alguien
+del equipo, con eliminación permanente a las 48 horas. Esto es borrado real de un proyecto
+de cliente y de un proyecto propio, no un servicio caído: push inmediato apenas se detectó,
+aunque la notificación al celular volvió a fallar ("Remote Control inactive"), mismo
+problema que viene arrastrando la casilla desde el 07/10. Etiquetado `ACCION REQUERIDA`,
+queda en inbox. **No se puede cancelar un borrado de Railway desde esta casilla.**
+
+El mismo día, el proyecto `rumbo` (sin dueño confirmado en este repositorio, no es ninguno
+de los clientes ni de las IP propias listadas) tuvo un deploy crasheado (`rumbo-reverb`) y
+ocho builds fallidos seguidos en distintos servicios (`rumbo-app`, `rumbo-scheduler`,
+`rumbo-reverb`, `rumbo-worker`). No se sabe si `rumbo` es un proyecto de cliente o un
+experimento propio. Mientras no se confirme, mismo criterio que `resourceful-clarity`
+(26/08): `ACCION REQUERIDA` más `Alertas Sistema`, queda en inbox, sin push automático
+porque "build failed" no es caída de servicio, pero si vuelve a fallar conviene preguntarle
+a Nicolás de quién es.
 
 ## Ex clientes
 
@@ -665,6 +685,25 @@ Claude en GitHub, una decision tecnica que solo puede tomar quien administra esa
 cuentas de Google Cloud. Criterio aplicado: `ACCION REQUERIDA` mas `Claude/Revisar`
 (no hay categoria limpia en `01-clasificacion.md`), queda en inbox, la fecha limite va en
 el resumen. No se marca ningun cliente OAuth como agentic desde la casilla.
+
+## Segundo patron de acceso a repos vinculado a jcgimenez (15/10/2026)
+
+`noreply@github.com` trajo una invitacion de `@Jcgimenez` a colaborar en
+`Jcgimenez/viaje-bariloche`, un repo de nombre personal ("viaje a Bariloche"), sin relacion
+aparente con ningun cliente ni proyecto del estudio. Mismo usuario de GitHub
+(`gimenez.jc31@gmail.com` / `jcgimenez`) que el 28/09/2026 pidio membresia al equipo de
+Vercel de Therasigna tras comitear a ese proyecto sin ser miembro. No se sabe por que invita
+a `info@nomastudio.ai` a un repo personal. Categoria I, `ACCION REQUERIDA`, queda en inbox,
+vence a los 7 dias (22/10/2026 aprox). No se acepta la invitacion desde la casilla.
+
+## Intento de deploy de un no-miembro del equipo en Vercel (15/10/2026)
+
+`notifications@vercel.com` avisó que `development@nomastudio.ai` (interno) intentó
+deployar un commit a los proyectos de `nomastudioai` en Vercel vía GitHub, pero esa cuenta
+no es miembro del equipo. No es un incidente de servicio caído ni facturación: es una
+decisión de permisos (agregar a `development@` como colaborador del equipo de Vercel, o
+confirmar que su cuenta de GitHub esté conectada). `ACCION REQUERIDA`, queda en inbox, no
+se agrega a nadie al equipo desde la casilla.
 
 ## Rutina de Claude para Otro Mundo (Area I+D)
 
