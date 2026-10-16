@@ -50,7 +50,11 @@ dominio sea Gmail, mismo criterio que `fedeasis@gmail.com`.
 
 Direcciones que **rebotan** y hay que avisar que están mal en alguna lista:
 `noma.claw@nomastudio.ai`, `manuela.cortes@nomastudio.ai`,
-`nacho.mallavia@nomastudio.ai` (nueva, primer rebote visto el 20/08/2026).
+`nacho.mallavia@nomastudio.ai` (nueva, primer rebote visto el 20/08/2026),
+`agos.mures@nomastudio.ai` (nueva, primer rebote visto el 15/10/2026, detectado el
+16/10/2026). Es probablemente un alias mal escrito de `agostina.mures@nomastudio.ai`,
+que sí existe y está activa (ver más abajo la factura que mandó el 01/10/2026). No se
+sabe qué lista interna sigue usando el alias corto.
 
 **Sobre `nacho.mallavia@nomastudio.ai`, dato del 26/08/2026.** No es la direccion de alguien
 que se fue: la persona esta activa y trabajando con material de un cliente. El 25/08/2026
@@ -217,6 +221,8 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `azubkov@slido.com` | Investigadora de producto de Slido pidiendo feedback sobre la funcion "Slido Ideas" a cambio de un vale de Amazon. Visto el 05/10/2026. **Cuarto subdominio de Slido en esta lista**, mismo tratamiento que `customer@` y `experience@slido.com`: ruido de producto, no confundir con `invoices@slido.com` (facturacion) | Ruido, cold outreach de producto |
 | `support@rebill.com` | Newsletter de producto de Rebill (plataforma de pagos/suscripciones), novedades de la plataforma (installments, sponsoreo de un evento, sandbox). Sin relacion con ningun cliente ni proyecto del estudio. Visto el 06/10/2026 | Ruido, newsletter |
 | `rufusgavin30@gmail.com` | Cold outreach. "Doc, de Galactic Elephant", musico retirado, ofrece licenciar una cancion propia ("Our Love", producida con Suno) para peliculas, series o trailers. No pide servicios, ofrece licenciar material propio. Mismo patron que `partnerships@fracturedgrid.com` (guionista ofreciendo IP propia). Visto el 10/10/2026 | Ruido, cold outreach |
+| `ferrergonzalodavid@gmail.com` | Cold outreach. Gonzalo Ferrer, disenador grafico de Santa Fe, ofrece colaboraciones freelance remuneradas en ilustracion/imagenes con IA (ChatGPT, Midjourney) y Photoshop, con portfolio propio. No pide nada, ofrece sus servicios como proveedor. Visto el 15/10/2026 | Ruido, cold outreach |
+| `d.roshanfekr@gmail.com` | Cold outreach. "Danial", creador de visuales/video con IA y docente en Udemy, ofrece un trial pago (EUR 75) de un ejercicio de leccion para NoMa Academy. No es alumno ni consulta de curso, es un proveedor ofreciendo contenido. Visto el 15/10/2026 | Ruido, cold outreach |
 
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
@@ -652,6 +658,20 @@ Criterio: etiquetar `Google ADS` mas `ACCION REQUERIDA`, queda en inbox, se repo
 resumen. No es push automatico (no es una caida de produccion en el sentido de servicio
 caido), pero si el motivo es un error 404 en la landing page conviene avisar que la pagina de
 destino puede estar rota, no solo el anuncio.
+
+## Anuncio rechazado de Meta (Facebook) Ads (nuevo, visto el 16/10/2026)
+
+`noreply@business-updates.facebook.com`, hasta ahora solo anotado como notificacion
+informativa (rollout, cambios de politica), tambien manda el rechazo puntual de un
+anuncio. Visto el 16/10/2026: anuncio "Camino - Rosario" (ID `120252525153100306`)
+rechazado por "enlace enganoso", infringiendo las normas de spam de Meta. **No se sabe
+a que cliente ni cuenta de Ads pertenece la campana "Camino - Rosario"**, no coincide
+con ningun dominio de cliente activo de este repositorio.
+
+Mismo criterio que el rechazo de anuncios de Google Ads (ver la seccion de abajo):
+etiquetar `META` mas `ACCION REQUERIDA`, queda en inbox, se reporta el ID del anuncio
+y el motivo en el resumen. No es push automatico (no es caida de produccion), pero
+conviene preguntarle a Nicolas de que cuenta es esta campana.
 
 ## Invitaciones a eventos y ferias (nuevo, visto el 11/10/2026)
 
