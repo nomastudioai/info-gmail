@@ -234,6 +234,15 @@ contratado por el estudio son alertas de cumplimiento reales (categoría B). Si 
 prospección (categoría A). Mientras no esté confirmado va a `Alertas Sistema`, que es la
 opción reversible. Preguntar a Nicolás.
 
+**Cuarto tipo de mail de `info@iubenda.com`, visto el 19/10/2026:** un scan automático que
+dice haber encontrado "4 servicios en nomastudio.ai" no mencionados en la política de
+privacidad del sitio, con botón para agregarlos. Mismo patrón que el tipo sobre la política
+de privacidad (preocupación por cumplimiento del sitio, no promoción genérica de producto).
+El propio mail aclara que el scanner "puede no detectar todas las tecnologías", así que no
+hay que tomar el número de servicios como un dato confirmado. Mientras la duda de fondo (si
+iubenda es un servicio contratado) siga sin resolver, va igual a `Alertas Sistema` por el
+criterio reversible de siempre.
+
 **Tercer tipo de mail de `info@iubenda.com`, visto el 24/09/2026:** una promocion de upgrade de
 plan ("Your site could score 4x higher"), dirigida a "tu sitio" en segunda persona, lo que sugiere
 que si existe una cuenta con plan gratuito de iubenda a nombre del estudio. Es un indicio a favor
@@ -289,6 +298,14 @@ ninguna lista de este repositorio y no se sabe si es propio o de un cliente.** E
 servicio coincide con el repo `nachomallavia/opciones-otro-mundo`, que es material de Otro
 Mundo, o sea cliente. Preguntar a Nicolas de quien es ese proyecto, porque de eso depende si un
 incidente futuro ahi es push o resumen.
+
+**Nuevo subtipo de `hello@notify.railway.app`, visto el 16/10/2026 (procesado el
+19/10/2026): "Railway usage alert".** Avisa cuánto se lleva gastado en el mes ("has used
+$X.XX of usage so far"), sin mencionar ningún proyecto ni servicio puntual. No es un
+deploy, no es un crash, no es un build fallido: es un aviso de consumo acumulado, mismo
+espíritu que los avisos de 75%/90% de límite de gasto de Anthropic. Criterio: `Alertas
+Sistema`, se archiva, sin push, salvo que el monto sea sorpresivamente alto o la casilla
+reciba después un aviso de que se alcanzó un límite real.
 
 **Distinguir proyecto propio de proyecto de cliente antes de decidir el push.** `noma osint`,
 `NoMa-Prompts` y `Ticketera` son propios: van al resumen. Un servicio de un cliente caído sí
@@ -348,6 +365,17 @@ escribió, no las notificaciones automáticas que llevan su nombre. Visto el 25/
 actualización de la videoconferencia de "OM - Nueva Web | SEO | Ads" firmada por
 `nicolas@nomastudio.ai`. Si el cuerpo trae un pedido escrito a mano, ahí sí es categoría E.
 
+**Primer caso de notificación de Calendar con pedido explícito que no se archiva, visto el
+18/10/2026 (evento del 19/10/2026).** `calendar-notification@google.com` avisó el resultado
+de la convocatoria "WAIFF Buenos Aires" (World AI Film Festival), con tres obras propias
+presentadas (identificadas en el asunto como "Kiti, NN, HQM"). El cuerpo trae una acción
+concreta con fecha: "Hay que revisar los mails (nicolas@ e info@) y la web... Si alguna obra
+queda seleccionada: preparar la difusión en redes y confirmar la asistencia a la premiación
+del 30/10". La regla general de Calendar (archivar, marcar leído) ya preveía la excepción de
+"si el cuerpo trae un pedido explícito": este es el primer caso real. Criterio aplicado:
+`ACCION REQUERIDA` más `Calendar`, **queda en inbox**, se resalta en el resumen por ser
+same-day. No se revisa la web del festival ni se confirma nada desde la casilla.
+
 ## Facturación: etiquetar `Pagos y Suscripciones`, archivar
 
 `payments@ebanx.com`, `no-reply@account.canva.com`, `no-reply@topazlabs.com`,
@@ -375,6 +403,16 @@ es una herramienta de encuestas/Q&A para reuniones, nueva en la casilla. No conf
 Los recibos de Anthropic y de Suno **no traen el monto en el cuerpo del mail**, solo el
 número de comprobante. No lo estimes ni lo busques en el link: anotá el número y que el
 monto está en el comprobante. Supabase sí manda el monto en el cuerpo.
+
+**Corrección del 19/10/2026: no siempre es así.** Los cinco recibos de Anthropic recibidos
+el 17/10/2026 (madrugada, entre las 00:48 y las 01:29) sí traían el monto en el cuerpo del
+mail: "Receipt from Anthropic, PBC $X.XX", concepto "Auto recharge extra usage, Team plan".
+Los cinco montos individuales sumaron igual bastante menos de USD 200, así que no entra en
+la excepción de escalamiento, pero el patrón importa: cinco recargas automáticas por uso
+extra en 40 minutos, la misma noche en que llegó el aviso de que la organización llegó al
+90% de su límite de gasto mensual (ver la sección de "Nunca tocar" más abajo). Mientras
+algunos recibos traigan monto y otros no, hay que abrir el cuerpo de cada uno, no asumir
+por el remitente.
 
 **`team@info.hostinger.com` es la trampa.** El asunto es puro marketing, del tipo "Todo listo
 para seguir creciendo en internet", así que por asunto iría a ruido. El cuerpo es una factura.
