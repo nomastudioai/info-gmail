@@ -224,6 +224,7 @@ No son clientes, pero tampoco son ruido. Van a `ACCION REQUERIDA` si traen una p
 | `ferrergonzalodavid@gmail.com` | Cold outreach. Gonzalo Ferrer, disenador grafico de Santa Fe, ofrece colaboraciones freelance remuneradas en ilustracion/imagenes con IA (ChatGPT, Midjourney) y Photoshop, con portfolio propio. No pide nada, ofrece sus servicios como proveedor. Visto el 15/10/2026 | Ruido, cold outreach |
 | `d.roshanfekr@gmail.com` | Cold outreach. "Danial", creador de visuales/video con IA y docente en Udemy, ofrece un trial pago (EUR 75) de un ejercicio de leccion para NoMa Academy. No es alumno ni consulta de curso, es un proveedor ofreciendo contenido. Visto el 15/10/2026 | Ruido, cold outreach |
 
+| `alex.nucci@firecrawl.dev` | Onboarding de producto de Firecrawl (serie de mails tras un registro del estudio, asunto "Get the most out of Firecrawl", "Extract clean data from any webpage"). Visto el 19 y 20/10/2026 | Ruido, onboarding de producto |
 Ojo: **`no-reply@topazlabs.com` no es lo mismo que `news@topazlabs.com`.** El primero
 manda comprobantes de compra y va a Pagos y Suscripciones. El segundo es newsletter y es
 ruido. Mirá el subdominio antes de archivar.
@@ -774,3 +775,13 @@ notificacion de un proceso interno del estudio que requiere una decision humana.
 Criterio: etiquetar `ACCION REQUERIDA`, queda en inbox, se resume con que decision especifica
 hace falta (que opcion elegir, si hace falta aprobar un acceso). No se decide por la casilla
 cual opcion elegir.
+
+## Cierre de la cuenta noma.claw@ y notificaciones asociadas (19/10/2026)
+
+Visto el 19/10/2026. Sin categoria propia, caen en J: `Claude/Revisar`, quedan en inbox.
+
+- `workspace-noreply@google.com`: aviso de que Workspace completo la transferencia de datos de `noma.claw@` a la cuenta del estudio, a pedido de `csd@`.
+- `team@user.hostinger.com`: tercer remitente de Hostinger (despues de `team@info.hostinger.com`, facturas y codigos, y `team@updates.hostinger.com`, newsletter). Este manda solicitudes sobre datos personales ("Confirm personal data deletion", "Your data has been deleted"). Abrir el cuerpo y no hacer clic en nada.
+- `no-reply@notifications.eulerapp.com`: EULER Software, plataforma que usa el Claude Partner Network. Confirmacion de recepcion de la aplicacion de NOMA STUDIO AI SRL, respuesta en 7 a 10 dias habiles. Informativo, no es ruido ni factura.
+- Anthropic con sufijo aleatorio: avisos de exportacion de datos ("in progress", "ready for download"). No se hace clic en el link de descarga.
+- `jaramos89@gmail.com`: cuenta personal de Jorge Ramos (`csd@`), mando una prueba de reenvio. Es interna aunque sea Gmail.
