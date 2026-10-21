@@ -785,3 +785,10 @@ Visto el 19/10/2026. Sin categoria propia, caen en J: `Claude/Revisar`, quedan e
 - `no-reply@notifications.eulerapp.com`: EULER Software, plataforma que usa el Claude Partner Network. Confirmacion de recepcion de la aplicacion de NOMA STUDIO AI SRL, respuesta en 7 a 10 dias habiles. Informativo, no es ruido ni factura.
 - Anthropic con sufijo aleatorio: avisos de exportacion de datos ("in progress", "ready for download"). No se hace clic en el link de descarga.
 - `jaramos89@gmail.com`: cuenta personal de Jorge Ramos (`csd@`), mando una prueba de reenvio. Es interna aunque sea Gmail.
+
+## Remitentes nuevos del 21/10/2026
+
+- `byteplus-noreply@byteplus.com`: notificaciones de la cuenta de BytePlus del estudio (verificacion de nombre real, invitacion a registrar una cuenta de consola). Aparece tras el alta de NoMa Studio AI SRL. La verificacion es informativa (`Claude/Revisar`). La invitacion con link de registro es `ACCION REQUERIDA`, no se hace clic ni se crea cuenta desde la casilla.
+- `forms-receipts-noreply@google.com`: recibo de un formulario de Google que alguien del estudio completo (visto con el de Media Party Buenos Aires 2026). Informativo, `Claude/Revisar` y se archiva.
+- `calendar-notification@google.com` con asunto `[CIERRE hh:mm hs]`: cierre de una convocatoria cargada como evento (visto con Becas Leonardo, hoy 21/10 a las 17:00). Segundo caso, despues de WAIFF, de Calendar con pedido explicito: `ACCION REQUERIDA` mas `Calendar`, queda en inbox, y push si el cierre es el mismo dia.
+- `info@iubenda.com`, quinto tipo (20/10/2026): aviso de que la politica de privacidad no esta traducida al espanol. Sigue a `Alertas Sistema`.
