@@ -792,3 +792,8 @@ Visto el 19/10/2026. Sin categoria propia, caen en J: `Claude/Revisar`, quedan e
 - `forms-receipts-noreply@google.com`: recibo de un formulario de Google que alguien del estudio completo (visto con el de Media Party Buenos Aires 2026). Informativo, `Claude/Revisar` y se archiva.
 - `calendar-notification@google.com` con asunto `[CIERRE hh:mm hs]`: cierre de una convocatoria cargada como evento (visto con Becas Leonardo, hoy 21/10 a las 17:00). Segundo caso, despues de WAIFF, de Calendar con pedido explicito: `ACCION REQUERIDA` mas `Calendar`, queda en inbox, y push si el cierre es el mismo dia.
 - `info@iubenda.com`, quinto tipo (20/10/2026): aviso de que la politica de privacidad no esta traducida al espanol. Sigue a `Alertas Sistema`.
+
+## Agregados del 22/10/2026
+
+- `support@railway.app`: ademas de las alertas de deploy, manda **avisos de seguridad del proveedor**. El 21/10/2026 informo acceso no autorizado a variables de entorno y pidio rotar credenciales ("Urgent: Railway Security Disclosure"). No es rutina de categoria B: `ACCION REQUERIDA` mas `Alertas Sistema`, queda en inbox y va push.
+- `no-reply-claude@mail.anthropic.com`: avisos de artefactos de Claude compartidos por gente del equipo (visto el 22/10/2026, de `csd@nomastudio.ai`). Interno, `ACCION REQUERIDA` si pide algo al equipo, queda en inbox.
