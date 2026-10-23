@@ -797,3 +797,9 @@ Visto el 19/10/2026. Sin categoria propia, caen en J: `Claude/Revisar`, quedan e
 
 - `support@railway.app`: ademas de las alertas de deploy, manda **avisos de seguridad del proveedor**. El 21/10/2026 informo acceso no autorizado a variables de entorno y pidio rotar credenciales ("Urgent: Railway Security Disclosure"). No es rutina de categoria B: `ACCION REQUERIDA` mas `Alertas Sistema`, queda en inbox y va push.
 - `no-reply-claude@mail.anthropic.com`: avisos de artefactos de Claude compartidos por gente del equipo (visto el 22/10/2026, de `csd@nomastudio.ai`). Interno, `ACCION REQUERIDA` si pide algo al equipo, queda en inbox.
+
+## Agregado el 23/10/2026
+- `hello@notify.railway.app`: avisos de deploy caido, build fallado, baja de proyecto y seguimiento de seguridad de Railway. Con el incidente del 21/10 abierto no se archivan: `Alertas Sistema` mas `ACCION REQUERIDA`, quedan en inbox.
+- `Nicolas.Ruarte@chilevision.cl`: reenvios de mails de Luis Gajardo (Chilevision) hacia info@ con infografias y flujo de produccion. Cliente, `ACCION REQUERIDA`, queda en inbox.
+- `claudestartups@mail.anthropic.com`: newsletter de startups de Anthropic. Ruido, se archiva.
+- `no-reply-XXXX@mail.anthropic.com` con asunto "You have new requests": pedidos de ingreso a la organizacion de Claude. `ACCION REQUERIDA`, queda en inbox, no se aprueba nada.
